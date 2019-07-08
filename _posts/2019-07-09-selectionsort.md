@@ -69,20 +69,20 @@ int main(){
 * 시간복잡도 계산할 때는 <strong>상수</strong>는 무시한다.
 
 
+
 ### 정렬 알고리즘 시간복잡도 비교
 <a href="/assets/images/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="/assets/images/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
+
+
 ### 관련된 Post
 
 
+
+
 ### References
-><ul>
->  <li>
->   <a href="https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html">https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort<a>
->  </li>
->  <li>
->   <a href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC">선택 정렬 – 위키백과<a>
->  </li>
-></ul>
+
+> * <a href="https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html">https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort<a>
+> * <a href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC">선택 정렬 – 위키백과<a>
