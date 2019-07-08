@@ -8,13 +8,13 @@ tags:	Selection Sort Algorithm
 cover:  "/assets/instacode.png"
 ---
 
-##선택 정렬(Sort) 이란?
+## 선택 정렬(Sort) 이란?
 선택 정렬(selection sort)은 제자리 정렬 알고리즘의 하나로, 다음과 같은 순서로 이루어진다.
 
 1. 주어진 리스트 중에 최소값을 찾는다.
 2. 그 값을 맨 앞에 위치한 값과 교체한다(패스(pass)).
 3. 맨 처음 위치를 뺀 나머지 리스트를 같은 방법으로 교체한다.
-비교하는 것이 상수 시간에 이루어진다는 가정 아래, n개의 주어진 리스트를 이와 같은 방법으로 정렬하는 데에는 Θ(n^2) 만큼의 시간이 걸린다.
+비교하는 것이 상수 시간에 이루어진다는 가정 아래, n개의 주어진 리스트를 이와 같은 방법으로 정렬하는 데에는 Θ(n^2)만큼의 시간이 걸린다.
 
 선택 정렬은 알고리즘이 단순하며 사용할 수 있는 메모리가 제한적인 경우에 사용 시 성능 상의 이점이 있습니다.
 
@@ -28,8 +28,8 @@ cover:  "/assets/instacode.png"
  배열에 1 10 5 7 3 2 9 8 6 4가 저장되어 있다고 가정하고 오름차순으로 정렬해 보자.
 
 
-<a href="/assets/images/sort/selectionsort.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/selectionsort.jpg" title="Check out the image">
+<a href="/assets/images/sort/selectionsort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/sort/selectionsort.JPG" title="Check out the image">
 </a>
 
 
@@ -70,8 +70,8 @@ int main(){
 
 
 ### 정렬 알고리즘 시간복잡도 비교
-<a href="/assets/images/sort/sorting_bigo_comp.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/sorting_bigo_comp.jpg" title="Check out the image">
+<a href="/assets/images/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
 ### 관련된 Post
@@ -80,7 +80,11 @@ int main(){
 ### References
 <blockquote>
     <ul>
-        <li><a href="https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html">https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html<a></li>
-        <li><a href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC">선택 정렬 – 위키백과<a></li>
+        <li>
+        <a href="https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html">https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html<a>
+        </li>
+        <li>
+        <a href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC">선택 정렬 – 위키백과<a>
+        </li>
     </ul>
 </blockquote>
