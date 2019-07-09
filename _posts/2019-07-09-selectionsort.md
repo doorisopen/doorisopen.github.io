@@ -26,7 +26,7 @@ cover:  "/assets/instacode.png"
 
 
 ### 선택 정렬(Selection Sort)의 알고리즘 예시
- 배열에 1 10 5 7 3 2 9 8 6 4가 저장되어 있다고 가정하고 오름차순으로 정렬해 보자.
+* 배열에 1 10 5 7 3 2 9 8 6 4가 저장되어 있다고 가정하고 오름차순으로 정렬해 보자.
 
 
 <a href="/assets/images/sort/selectionsort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
