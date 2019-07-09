@@ -2,7 +2,7 @@
 layout: post
 title:  "버블 정렬(Bubble Sort)"
 date:   2019-07-10 11:21:59
-author: doorisopen
+author: me
 categories: Sort
 tags:	Bubble Sort Algorithm
 cover:  "/assets/instacode.png"
@@ -13,8 +13,8 @@ cover:  "/assets/instacode.png"
 * 코드가 단순하기 때문에 자주 사용된다.
 
 ### 버블 정렬(Bubble  Sort) vs 선택 정렬(Selection Sort)
-* 버블 정렬은 선택 정렬보다 비효율적이다.
- * <strong>버블 정렬</strong>은 바로 옆의 수와 자리를 바꾸는 연산을 한다. 그러나 <strong>선택 정렬</strong>은 가장 작은 수와 자리 교체를 하 기 때문에 <strong>선택 정렬</strong>이 <strong>버블 정렬</strong> 보다 빠르다고 할 수 있다.
+* <strong>버블 정렬</strong>은 <strong>선택 정렬</strong>보다 비효율적이다.
+* <strong>버블 정렬</strong>은 바로 옆의 수와 자리를 바꾸는 연산을 한다. 그러나 <strong>선택 정렬</strong>은 가장 작은 수와 자리 교체를 하 기 때문에 <strong>선택 정렬</strong>이 <strong>버블 정렬</strong> 보다 빠르다고 할 수 있다.
 
 
 ### 버블 정렬(Bubble Sort)의 알고리즘 예시
@@ -55,13 +55,13 @@ int main(){
 
 
 ### 버블 정렬(Bubble  Sort)의 시간복잡도
-
-* 시간복잡도를 계산하면...
- * 첫 for 루프 n-1회 반복 후 배열을 첫 번째 원소 정렬
- * (n-1) + (n-2) + ... + 2 + 1 = n(n-1)/2 -> 등차수열의 합
- 
- 
- * n(n-1)/2 = (n^2-n)/2 이므로 
+> 
+> * 시간복잡도를 계산하면...
+> * 첫 for 루프 n-1회 반복 후 배열을 첫 번째 원소 정렬
+> * (n-1) + (n-2) + ... + 2 + 1 = n(n-1)/2 -> 등차수열의 합
+> 
+> 
+> * n(n-1)/2 = (n^2-n)/2 이므로 
 <h4>따라서 버블 정렬의 시간 복잡도 Θ(n^2)</h4>
   * 시간복잡도 계산할 때는 <strong>상수</strong>는 무시한다.
 
