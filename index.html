@@ -20,7 +20,7 @@ layout: default
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
     </section>
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -81,6 +81,22 @@ layout: default
 		{% endif %}
 	</p>
 </nav>
+
+<!-- This is SideBar by doorisopen-->
+<aside>
+  <section>
+    <strong>categories</strong>
+    <ul class="posts-list">
+      {% for post in site.categories %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ category | first }}</a>
+          <span class="badge">{{ category | last | size }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</aside>
+
 
 </div>
 </div>
