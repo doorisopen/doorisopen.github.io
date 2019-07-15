@@ -11,10 +11,7 @@ layout: default
     </header>
   </div>
 </div>
-float: right;
-width: 25%;
-box-sizing: border-box;
-padding: 30px;
+
 <div class="wrapper">
 <div class="left" style="float: left; width:65%;">
 <ul class="post-list">
@@ -86,10 +83,11 @@ padding: 30px;
 	</p>
 </nav>
 </div>
+
 <!-- This is SideBar by doorisopen-->
 <div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
-  <strong style="text-align: center">categories</strong>
-  <ul style="list-style: none">
+  <strong>categories</strong>
+  <ul style="list-style: none; margin-left: 0;">
     {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li>
