@@ -86,10 +86,10 @@ padding: 30px;
 	</p>
 </nav>
 </div>
-  <!-- This is SideBar by doorisopen-->
-<div class="right" style="float: right; padding: 30px; box-sizing:border-box;">
+<!-- This is SideBar by doorisopen-->
+<div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
   <strong style="text-align: center">categories</strong>
-  <ul>
+  <ul style="list-style: none">
     {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li>
