@@ -83,15 +83,19 @@ layout: default
 </nav>
 
 </div>
+
+
 <!-- This is SideBar by doorisopen-->
 <div class="wrapper">
   <div>
     <strong>categories</strong>
     <ul class="posts-list">
       {% for category in site.categories %}
+        {% capture cat %}{{ category | first }}{% endcapture %}
         <li>
-          <a href="{{ site.baseurl }}/{{ site.categories }}#{{ category | first }}">{{ category | first }}</a>
-          <span>{{ category | last | size }}</span>
+          <a id="{{cat}}" href="{{ site.category_dir }}#{{ cat | capitalize }}">{{ cat | capitalize }}
+          (<span>{{ category | last | size }}</span>)
+          </a>
         </li>
       {% endfor %}
     </ul>
