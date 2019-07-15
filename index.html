@@ -82,23 +82,20 @@ layout: default
 	</p>
 </nav>
 
+  <!-- This is SideBar by doorisopen-->
+<div>
+  <strong>categories</strong>
+  <ul>
+    {% for category in site.categories %}
+      {% capture cat %}{{ category | first }}{% endcapture %}
+      <li>
+        <a id="{{cat}}" href="{{ site.category_dir }}{{ cat | capitalize }}">{{ cat | capitalize }}
+        (<span>{{ category | last | size }}</span>)
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
-
-<!-- This is SideBar by doorisopen-->
-<div class="wrapper">
-  <div>
-    <strong>categories</strong>
-    <ul class="posts-list">
-      {% for category in site.categories %}
-        {% capture cat %}{{ category | first }}{% endcapture %}
-        <li>
-          <a id="{{cat}}" href="{{ site.category_dir }}#{{ cat | capitalize }}">{{ cat | capitalize }}
-          (<span>{{ category | last | size }}</span>)
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
 </div>
 </div>
