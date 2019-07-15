@@ -82,21 +82,19 @@ layout: default
 	</p>
 </nav>
 
+</div>
 <!-- This is SideBar by doorisopen-->
-<aside>
-  <section>
+<div class="wrapper">
+  <div>
     <strong>categories</strong>
     <ul class="posts-list">
-      {% for post in site.categories %}
+      {% for category in site.categories %}
         <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ category | first }}</a>
-          <span class="badge">{{ category | last | size }}</span>
+          <a href="{{ site.baseurl }}/{{ site.categories }}#{{ category | first }}">{{ category | first }}</a>
+          <span>{{ category | last | size }}</span>
         </li>
       {% endfor %}
     </ul>
-  </section>
-</aside>
-
-
+  </div>
 </div>
 </div>
