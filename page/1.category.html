@@ -14,7 +14,7 @@ type: page
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
       <h1 id="{{ category | first }}" class="title">{{ esc_ctgname }}</h1>
-      {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
     </header>
   </div>
 </div>
@@ -24,7 +24,7 @@ type: page
 
 <div id="post-list">
 <ul class="post-list">
-  
+  {% for post in paginator.posts %}
   <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1"> 
     <h2>
       <a class="post-link" v-bind:href="p.url">{{ esc_title }}</a>
@@ -48,7 +48,7 @@ type: page
   {% if forloop.last == false %}
   <hr>
   {% endif %}
-  
+  {% endfor %}
 </ul>
 </div>
 

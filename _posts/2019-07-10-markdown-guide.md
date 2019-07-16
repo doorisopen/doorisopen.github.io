@@ -2,9 +2,9 @@
 layout: post
 title:  "마크다운(markdown) 작성법"
 date:   2019-07-09 23:56:59
-categories: markdown
+categories: Markdown
 author: me
-tags:	markdown
+tags:	Markdown
 cover:  "/assets/instacode.png"
 ---
 
