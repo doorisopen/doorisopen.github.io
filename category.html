@@ -4,7 +4,7 @@ layout: default
 permalink: /category/
 type: page
 ---
-
+<!--
 <div class="home">
 
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
@@ -19,7 +19,7 @@ type: page
 <div class="wrapper" style="margin-top: 30px">
 <div class="left" style="float: left; width:70%;">
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts and site.categories %}
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -31,7 +31,7 @@ type: page
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
       <div class="post-categories">
       {% if post.categories.size > 0 %}in {% for cat in post.categories %}
-        {% if site.jekyll-archives and site.categories == post.categories %}
+        {% if site.jekyll-archives %}
         <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
         {% else %}
         <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
@@ -88,7 +88,7 @@ type: page
 </nav>
 </div>
 
-<!-- This is SideBar by doorisopen-->
+// This is SideBar by doorisopen
 <div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
   <strong>categories</strong>
   <ul style="list-style: none; padding-left: 0; margin-top: 1px">
@@ -105,9 +105,8 @@ type: page
 
 </div>
 </div>
-
-<!-- test 
-{% for category in site.categories %}
+-->
+{% for category in site.categories[cat] %}
   {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
@@ -130,4 +129,3 @@ type: page
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
--->
