@@ -8,14 +8,14 @@ permalink: /category/
 {% assign esc_date="{{ p.date }}" %}
 {% assign esc_ctgname="{{ hash }}" %}
 
-
+<div id="post-list">
   <h2>{{ esc_ctgname }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
       <p class="desc"><em>{{ desc.desc }}</em></p>
     {% endif %}
   {% endfor %}
-  <div id="post-list">
+  
   <ul class="posts-list">
   
     <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1">
