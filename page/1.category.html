@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: category
 permalink: /category/
 title: Categories
 ---
 
 {% assign esc_title="{{ p.title }}" %}
 {% assign esc_date="{{ p.date }}" %}
-{% assign esc_ctgname="{{ hash }}" %}
+{% assign esc_ctgname="{{ p.categories }}" %}
 
 
   <h2 id="{{category | first}}">{{ esc_ctgname }}</h2>
