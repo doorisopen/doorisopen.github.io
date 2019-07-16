@@ -1,7 +1,13 @@
 ---
 layout: default
 permalink: /category/
+type: page
 ---
+
+{% assign esc_title="{{ p.title }}" %}
+{% assign esc_date="{{ p.date }}" %}
+{% assign esc_ctgname="{{ hash }}" %}
+
 
 <div class="home">
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
@@ -15,11 +21,11 @@ permalink: /category/
 
 <div class="wrapper" style="margin-top: 30px">
 <div class="left" style="float: left; width:70%;">
+<div id="post-list">
 <ul class="post-list">
-  {% for post in paginator.posts and post.categories == site.categories.title %}
-  <li>
+  <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1"> 
     <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link" v-bind:href="p.url">{{ esc_title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
@@ -41,9 +47,8 @@ permalink: /category/
   <hr>
   {% endif %}
   {% endfor %}
-  
 </ul>
-
+</div>
 <nav class="pagination" role="navigation">
 	<p>
     {% if paginator.previous_page %}
@@ -89,17 +94,36 @@ permalink: /category/
 <!-- This is SideBar by doorisopen-->
 <div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
   <strong>categories</strong>
-  <ul style="list-style: none; padding-left: 0; margin-top: 1px">
-    {% for category in site.categories %}
+    <ul style="list-style: none; padding-left: 0; margin-top: 1px">
+      {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li>
-        <a id="{{cat}}" href="{{ site.category_dir }}{{ cat | capitalize }}">{{ cat | capitalize }}
+        <a id="{{cat}}" href="/category#{{ cat | capitalize }}">{{ cat | capitalize }}
         (<span>{{ category | last | size }}</span>)
         </a>
       </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
 </div>
 
 </div>
 </div>
+
+<script>
+    var hash = decodeURI(window.location.hash.substr(1));
+  
+    var postList = new Vue({
+      el: '#post-list',
+      data: {
+        posts: []
+      }
+    });
+  
+    axios.get('/posts.json')
+    .then(function (response) {
+      postList.posts = response.data.posts;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  </script>
