@@ -16,7 +16,7 @@ permalink: /category/
 <div class="wrapper" style="margin-top: 30px">
 <div class="left" style="float: left; width:70%;">
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts and post.categories == site.categories.title %}
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -41,6 +41,7 @@ permalink: /category/
   <hr>
   {% endif %}
   {% endfor %}
+  {% endif %}
 </ul>
 
 <nav class="pagination" role="navigation">
