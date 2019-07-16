@@ -1,6 +1,4 @@
 ---
-"categories": {{ post.categories | jsonify }},
-"tags": {{ post.tags | jsonify }},
 ---
 {% capture json %}
 {
