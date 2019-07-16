@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /category/
-
+title: Categories
 ---
 
 {% assign esc_title="{{ p.title }}" %}
@@ -15,6 +15,7 @@ permalink: /category/
       <p class="desc"><em>{{ desc.desc }}</em></p>
     {% endif %}
   {% endfor %}
+  <div id="post-list">
   <ul class="posts-list">
   
     <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1">
@@ -24,6 +25,7 @@ permalink: /category/
       <span class="post-date">- {{ esc_date }}</span>
     </li>
   </ul>
+</div>
   {% if forloop.last == false %}<hr>{% endif %}
 <br>
 
