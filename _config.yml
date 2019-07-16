@@ -9,16 +9,16 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Hello World!
+title: 내가 보려고 만든 일기장
 # subtitle:
 email: audauddl2@gmail.com
-name: TaeWoong Lee
+name: Anonymous
 description: >
   doorisopen
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/doorisopen.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://doorisopen.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
