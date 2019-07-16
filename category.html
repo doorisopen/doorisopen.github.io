@@ -1,12 +1,9 @@
 ---
-layout: page
-
-permalink: /category/
-
+layout: default
+permalink: /category/*
 ---
-<!--
-<div class="home">
 
+<div class="home">
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
@@ -19,7 +16,7 @@ permalink: /category/
 <div class="wrapper" style="margin-top: 30px">
 <div class="left" style="float: left; width:70%;">
 <ul class="post-list">
-  {% for post in paginator.posts and site.categories  %}
+  {% for post in paginator.posts %}
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -88,7 +85,7 @@ permalink: /category/
 </nav>
 </div>
 
-This is SideBar by doorisopen 
+<!-- This is SideBar by doorisopen-->
 <div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
   <strong>categories</strong>
   <ul style="list-style: none; padding-left: 0; margin-top: 1px">
@@ -105,28 +102,3 @@ This is SideBar by doorisopen
 
 </div>
 </div>
--->
-
-{% for category in site.categories.id %}
-  {% capture cat %}{{ category | first }}{% endcapture %}
-  <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
-  {% for desc in site.descriptions %}
-    {% if desc.cat == cat %}
-      <p class="desc"><em>{{ desc.desc }}</em></p>
-    {% endif %}
-  {% endfor %}
-  <ul class="posts-list">
-  {% if post == category %}
-  {% for post in site.categories[cat] %}
-    <li>
-      <strong>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </strong>
-      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
-    </li>
-  {% endfor %}
-  {% endif %}
-  </ul>
-  {% if forloop.last == false %}<hr>{% endif %}
-{% endfor %}
-<br>
