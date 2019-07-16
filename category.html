@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /category/*
+permalink: /category/
 ---
 
 <div class="home">
@@ -92,7 +92,7 @@ permalink: /category/*
     {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li>
-        <a id="{{cat}}" href="{{ site.category_dir }}{{ cat | capitalize }}">{{ cat | capitalize }}
+        <a id="{{cat}}" href="{{ category.url }}">{{ cat | capitalize }}
         (<span>{{ category | last | size }}</span>)
         </a>
       </li>
