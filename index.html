@@ -91,7 +91,7 @@ layout: default
     {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li>
-        <a id="{{cat}}" href="{{ site.category }}">{{ cat | capitalize }}
+        <a id="{{cat}}" href="/posts/">{{ cat | capitalize }}
         (<span>{{ category | last | size }}</span>)
         </a>
       </li>
