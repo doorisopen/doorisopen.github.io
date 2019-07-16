@@ -21,6 +21,7 @@ type: page
 
 <div class="wrapper" style="margin-top: 30px">
 <div class="left" style="float: left; width:70%;">
+
 <div id="post-list">
 <ul class="post-list">
   <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1"> 
@@ -35,20 +36,22 @@ type: page
       <div class="post-categories">
       {% if post.categories.size > 0 %}in {% for cat in post.categories %}
         {% if site.jekyll-archives %}
-        <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+        <a href="{{ site.baseurl }}/category#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
         {% else %}
         <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
         {% endif %}
-      {% endfor %}{% endif %}
+      {% endif %}
+      {% endfor %}
       </div>
     </section>
   </li>
   {% if forloop.last == false %}
   <hr>
   {% endif %}
-  {% endfor %}
+  
 </ul>
 </div>
+
 <nav class="pagination" role="navigation">
 	<p>
     {% if paginator.previous_page %}
@@ -93,17 +96,17 @@ type: page
 
 <!-- This is SideBar by doorisopen-->
 <div class="right" style="float: right; padding: 30px; box-sizing: border-box;">
-  <strong>categories</strong>
+    <strong>categories</strong>
     <ul style="list-style: none; padding-left: 0; margin-top: 1px">
       {% for category in site.categories %}
-      {% capture cat %}{{ category | first }}{% endcapture %}
-      <li>
-        <a id="{{cat}}" href="/category#{{ cat | capitalize }}">{{ cat | capitalize }}
-        (<span>{{ category | last | size }}</span>)
-        </a>
-      </li>
+        {% capture cat %}{{ category | first }}{% endcapture %}
+        <li>
+          <a id="{{cat}}" href="/category#{{ cat | capitalize }}">{{ cat | capitalize }}
+          (<span>{{ category | last | size }}</span>)
+          </a>
+        </li>
       {% endfor %}
-    </ul>
+  </ul>
 </div>
 
 </div>
