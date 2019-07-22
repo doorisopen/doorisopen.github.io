@@ -9,12 +9,24 @@ cover:  "/assets/instacode.png"
 ---
 
 ## 계수 정렬(Counting Sort) 이란?
+* 계수 정렬은 모든 정렬 알고리즘 중에서 가장 빠른 알고리즘의 한 종류이다. 물론 일반적인 상황에서는 잘 사용되지 않아 __'특수 정렬'__ 알고리즘이라고 할 수 있다. 그 이유는 메모리를 포기하고 많은 기억 공간을 사용하는 대신 속도를 빠르게 하였기 때문이다.
 
 
 ### 계수 정렬(Counting Sort) 알고리즘의 특징
-
+* 계수 정렬은 __비교 정렬 알고리즘이__ 아닌 같은 숫자라도 정렬할 때 순서가 섞이지 않는 __안정 정렬__ 이다.
+* 계수 정렬은 특정 __'범위 조건'이__ 있는 경우에 한해서 아주 빠른 알고리즘이다.
 
 ### 계수 정렬(Counting Sort)의 알고리즘 예시
+
+<a href="/assets/images/sort/countingsort1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/sort/countingsort1.JPG" title="Check out the image">
+</a>
+
+<a href="/assets/images/sort/countingsort2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/sort/countingsort2.JPG" title="Check out the image">
+</a>
+
+결과 적으로 1 1 2 2 2 3 3 3 3 4 4 5 결과를 출력하게된다.
 
 
 ### Source Code
@@ -51,6 +63,7 @@ int main(void){
 
 ### 계수 정렬(Counting Sort)의 시간복잡도
 >
+> 계수 정렬의 시간 복잡도는 O(N + k) 이다.
 > 
 
 
@@ -62,8 +75,12 @@ int main(void){
 
 
 ### 관련된 Post
-
-
+> * <a href="https://doorisopen.github.io/sort/2019/07/09/selectionsort.html">선택 정렬(Selection Sort)<a>
+> * <a href="https://doorisopen.github.io/sort/2019/07/10/bubblesort.html">버블 정렬(Buble Sort)<a>
+> * <a href="https://doorisopen.github.io/sort/2019/07/10/insertionsort.html">삽입 정렬(Insertion Sort)<a>
+> * <a href="https://doorisopen.github.io/sort/2019/07/10/mergesort.html">합병 정렬(Merge Sort)<a>
+> * <a href="https://doorisopen.github.io/sort/2019/07/10/quicksort.html">퀵 정렬(Quick Sort)<a>
+> * <a href="https://doorisopen.github.io/sort/2019/07/17/heapsort.html">힙 정렬(Heap Sort)<a>
 
 ### References
 > * <a href="https://blog.naver.com/ndb796/221228361368">https://blog.naver.com/ndb796/221228361368<a>
