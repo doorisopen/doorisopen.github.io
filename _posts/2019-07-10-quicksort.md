@@ -3,7 +3,7 @@ layout: post
 title:  "퀵 정렬(Quick Sort)"
 date:   2019-07-10 11:21:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	quick Sort Algorithm
 cover:  "/assets/instacode.png"
 ---

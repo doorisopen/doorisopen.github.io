@@ -3,7 +3,7 @@ layout: post
 title:  "선택 정렬(Selection Sort)"
 date:   2019-07-09 17:21:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	Selection Sort Algorithm
 cover:  "/assets/instacode.png"
 ---

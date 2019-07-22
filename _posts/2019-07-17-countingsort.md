@@ -3,7 +3,7 @@ layout: post
 title:  "계수 정렬(Counting Sort)"
 date:   2019-07-17 10:30:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	Counting Sort Algorithm
 cover:  "/assets/instacode.png"
 ---

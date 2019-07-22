@@ -3,7 +3,7 @@ layout: post
 title:  "삽입 정렬(Insertion Sort)"
 date:   2019-07-10 11:21:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	Insertion Sort Algorithm
 cover:  "/assets/instacode.png"
 ---

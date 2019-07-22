@@ -3,7 +3,7 @@ layout: post
 title:  "버블 정렬(Bubble Sort)"
 date:   2019-07-10 11:21:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	Bubble Sort Algorithm
 cover:  "/assets/instacode.png"
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "합병 정렬(Merge Sort)"
 date:   2019-07-10 11:21:59
 author: me
-categories: Sort
+categories: Algorithm
 tags:	Merge Sort Algorithm
 cover:  "/assets/instacode.png"
 ---
