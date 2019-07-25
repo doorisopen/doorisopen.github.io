@@ -21,8 +21,8 @@ cover:  "/assets/instacode.png"
 
 ### 퀵 정렬(Quick Sort)의 알고리즘 예시
 
-<a href="/assets/images/sort/quicksort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/quicksort.JPG" title="Check out the image">
+<a href="/assets/images/algorithm/sort/quicksort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/sort/quicksort.JPG" title="Check out the image">
 </a>
 
 
@@ -86,8 +86,8 @@ int main(){
 
 ### 정렬 알고리즘 시간복잡도 비교
 
-<a href="/assets/images/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/sorting_bigo_comp.JPG" title="Check out the image">
+<a href="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
 

@@ -29,8 +29,8 @@ cover:  "/assets/instacode.png"
 * 배열에 1 10 5 7 3 2 9 8 6 4가 저장되어 있다고 가정하고 오름차순으로 정렬해 보자.
 
 
-<a href="/assets/images/sort/selectionsort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/selectionsort.JPG" title="Check out the image">
+<a href="/assets/images/algorithm/sort/selectionsort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/sort/selectionsort.JPG" title="Check out the image">
 </a>
 
 
@@ -75,8 +75,8 @@ int main(){
 
 
 ### 정렬 알고리즘 시간복잡도 비교
-<a href="/assets/images/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/sort/sorting_bigo_comp.JPG" title="Check out the image">
+<a href="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
 
