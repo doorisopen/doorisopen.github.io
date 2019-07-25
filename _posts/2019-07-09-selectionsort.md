@@ -29,8 +29,8 @@ cover:  "/assets/instacode.png"
 * 배열에 1 10 5 7 3 2 9 8 6 4가 저장되어 있다고 가정하고 오름차순으로 정렬해 보자.
 
 
-<a href="/assets/images/algorithm/sort/selectionsort.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/selectionsort.jpg" title="Check out the image">
+<a href="/assets/images/algorithm/sort/selectionsort.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/sort/selectionsort.JPG" title="Check out the image">
 </a>
 
 
