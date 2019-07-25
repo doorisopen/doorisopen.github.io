@@ -111,12 +111,13 @@ int main(void){
 
 
 ### 관련된 Post
-> * <a href="https://doorisopen.github.io/sort/2019/07/09/selectionsort.html">선택 정렬(Selection Sort)<a>
-> * <a href="https://doorisopen.github.io/sort/2019/07/10/bubblesort.html">버블 정렬(Buble Sort)<a>
-> * <a href="https://doorisopen.github.io/sort/2019/07/10/insertionsort.html">삽입 정렬(Insertion Sort)<a>
-> * <a href="https://doorisopen.github.io/sort/2019/07/10/quicksort.html">퀵 정렬(Quick Sort)<a>
-> * <a href="https://doorisopen.github.io/sort/2019/07/17/countingsort.html">계수 정렬(Counting Sort)<a>
-> * <a href="https://doorisopen.github.io/sort/2019/07/17/heapsort.html">힙 정렬(Heap Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/09/selectionsort.html">선택 정렬(Selection Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/10/bubblesort.html">버블 정렬(Buble Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/10/insertionsort.html">삽입 정렬(Insertion Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/10/mergesort.html">합병 정렬(Merge Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/10/quicksort.html">퀵 정렬(Quick Sort)<a>
+> * <a href="https://doorisopen.github.io/algorithm/2019/07/17/countingsort.html">계수 정렬(Counting Sort)<a>
+
 
 
 ### References
