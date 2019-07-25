@@ -135,8 +135,8 @@ int main(void){
 >> 배열로 구현하는 것보다 비효율적이다.
 
 #### find 연산 최적화
-<a href="/assets/images/algorithm/unionfindpathcompression.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfindpathcompression.JPG" title="Check out the image">
+<a href="/assets/images/algorithm/unionfindpathcompressionnew.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/algorithm/unionfindpathcompressionnew.JPG" title="Check out the image">
 </a>
 
 
