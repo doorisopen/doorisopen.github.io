@@ -3,18 +3,64 @@ layout: post
 title:  "이진 트리(Binary Tree)"
 date:   2019-07-25 18:32:30
 author: me
-categories: Algorithm
-tags:	Binary Tree Algorithm
+categories: Datastructure
+tags:	Binary Tree Datastructure
 cover:  "/assets/instacode.png"
 ---
 
-## 이진 트리(Binary Tree) 이란?
+## 이진 트리(Binary Tree) 란?
+* __이진 트리는__ 가장 많이 사용되는 __비선형 자료구조__ 이다.
+* __이진 트리는__ 데이터의 __탐색 속도 증진__ 을 위해 사용하는 구조이다.
+
+
+
+<hr />
+
 
 
 ### 이진 트리(Binary Tree)의 특징
-간선을 거리가 짧은 순서대로 그래프에 포함시킨다.
+* __힙 정렬(Heap Sort)을__ 구현할 때 이진 트리를 이용하여 구현할 수 있다.
+* 이진 트리에서 __데이터를 탐색__ 하는 방법은 크게 __세 가지 방법이__ 있다.
+  * __전위 순회 (Preorder Traversal)__
+	1. __자기 자신을 먼저 처리한다.__
+	2. 왼쪽 자식을 방문.
+	3. 오른쪽 자식을 방문
+  * __중위 순회 (Inorder Traversal)__
+  	1. 왼쪽 자식을 방문.
+	2. __자기 자신을 먼저 처리한다.__
+	3. 오른쪽 자식을 방문
+  * __후위 순회 (Postorder Traversal)__
+	1. 왼쪽 자식을 방문
+	2. 오른쪽 자식을 방문.
+	3. __자기 자신을 먼저 처리한다.__
+
+
+
+* __이진트리(Binary Tree)__ 형태
+<a href="/assets/images/datastructure/binarytreeshape.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/datastructure/binarytreeshape.JPG" title="Check out the image">
+</a>
+
+
+<hr />
+
 
 ### 이진 트리(Binary Tree)의 알고리즘 예시
+<a href="/assets/images/datastructure/binarytree.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="/assets/images/datastructure/binarytree.JPG" title="Check out the image">
+</a>
+
+
+* __전위 순회 (Preorder Traversal)__
+1 - 2 - 4 - 5 - 3 - 6 - 7
+* __중위 순회 (Inorder Traversal)__
+4 - 2 - 5 - 1 - 6 - 3 - 7
+* __후위 순회 (Postorder Traversal)__
+4 - 5 - 2 - 6 - 7 - 3 - 1
+
+
+<hr />
+
 
 
 ### Source Code
@@ -93,6 +139,10 @@ int main(void){
 	return 0;
 }
 {% endhighlight %}
+
+
+
+<hr />
 
 
 
