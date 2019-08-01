@@ -33,7 +33,7 @@ cover:  "/assets/instacode.png"
 </a>
 
 위의 그래프를 이차원 배열의 형태로 출력하면 다음과 같다.
-
+* 현재까지 계산된 최소 비용 테이블
 <a href="/assets/images/algorithm/floydwarshall_init.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="/assets/images/algorithm/floydwarshall_init.JPG" title="Check out the image">
 </a>
@@ -51,19 +51,19 @@ cover:  "/assets/instacode.png"
 <br>
 
 즉, 1을 거쳐서 가는 경우가 더 빠른 경우가 존재한다면 빠른 경우로 최소 비용을 계산한다. 그 결과 다음과 같이 표가 구성된다.
-
+* 노드 1을 거쳐가는 경우 결과 테이블
 <a href="/assets/images/algorithm/floydwarshall_1_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="/assets/images/algorithm/floydwarshall_1_1.JPG" title="Check out the image">
 </a>
 
 
-* 노드 2을 거쳐가는 경우
+* 노드 2을 거쳐가는 경우 결과 테이블
 <a href="/assets/images/algorithm/floydwarshall_2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="/assets/images/algorithm/floydwarshall_2.JPG" title="Check out the image">
 </a>
 
 
-* 노드 3을 거쳐가는 경우
+* 노드 3을 거쳐가는 경우 결과 테이블
 <a href="/assets/images/algorithm/floydwarshall_3.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="/assets/images/algorithm/floydwarshall_3.JPG" title="Check out the image">
 </a>
