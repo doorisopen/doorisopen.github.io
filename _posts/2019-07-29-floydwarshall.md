@@ -46,8 +46,10 @@ cover:  "/assets/instacode.png"
 </a>
 
 노드 1을 거쳐가는 경우 회색으로 칠해진 12개의 공간만을 갱신해주면된다.
->> ***X에서 Y로 가는 최소 비용 VS X에서 노드 1로 가는 비용 + 노드 1에서 Y로 가는 비용*** 을 비교해주는 방식을 반복하면된다.<br>
+> ***X에서 Y로 가는 최소 비용 VS X에서 노드 1로 가는 비용 + 노드 1에서 Y로 가는 비용*** 을 비교해주는 방식을 반복하면된다.<br>
+
 <br>
+
 즉, 1을 거쳐서 가는 경우가 더 빠른 경우가 존재한다면 빠른 경우로 최소 비용을 계산한다. 그 결과 다음과 같이 표가 구성된다.
 
 <a href="/assets/images/algorithm/floydwarshall_1_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
