@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 ---
 
 ## 위상 정렬(Topology Sort) 이란?
-* '순서가 정해져있는 작업'을 차레로 수행해야 할 때 그 순서를 결정해주기 위해 사용하는 알고리즘이다.
+* '순서가 정해져있는 작업'을 차례로 수행해야 할 때 그 순서를 결정해주기 위해 사용하는 알고리즘이다.
 * 다음과 같이 순서가 정해져있는 작업의 예시이다.
 <a href="{{ site.algorithm_img }}/topologysort_ex.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="{{ site.algorithm_img }}/topologysort_ex.JPG" title="Check out the image">
