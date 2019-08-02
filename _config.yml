@@ -23,6 +23,17 @@ url: "https://doorisopen.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
+# image settings
+# 2019
+algorithm_img: /assets/images/algorithm
+datastructure_img: /assets/images/2019/datastructure
+spring_img: /assets/images/2019/spring
+
+# 2020
+# 2021
+# 2022
+
+
 # Category
 category_dir: category/
 tag_dir: tag/
