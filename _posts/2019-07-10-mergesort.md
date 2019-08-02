@@ -23,13 +23,13 @@ cover:  "/assets/instacode.png"
 ### 합병 정렬(Merge Sort)의 알고리즘 예시
 * 합병 정렬은 퀵 정렬과 다르게 피벗 값이 없고 항상 반으로 나눈다는 특징이 있고 합치는 순간에 정렬을 한다.
 바 로 이 특징이 단계의 크기가 logN이 되도록 만들어준다.
-<a href="/assets/images/algorithm/sort/mergesort1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/mergesort1.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/mergesort1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/mergesort1.JPG" title="Check out the image">
 </a>
 
 * 단계가 logN이라는 것을 이해했다. 근데 왜 정렬에 필요한 수행시간이 N밖에 되지 않는가? 이유는 다음과 같다.
-<a href="/assets/images/algorithm/sort/mergesort2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/mergesort2.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/mergesort2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/mergesort2.JPG" title="Check out the image">
 </a>
 
 * 초기 상태는 위와 같다. 왼쪽 집합에서는 i가 첫 번째 원소를 가리키고, 두번째 집합에서는 j가 두번째 원소를 가리킨다. 그리고 정렬된 배열은 비어있는 상태다. 정렬에 N만 걸리는 이유는 삽입 정렬과 동일한 이유다. 바로 <strong>'부분 집합은 이미 정렬이 되어 있는 상태'</strong> 라고 가정하기 때문이다. 이미 정렬이 되어있는 배열을 합치는 것은 시간 복잡도 O(N)이면 충분 하다.
@@ -105,8 +105,8 @@ int main(void){
 
 ### 정렬 알고리즘 시간복잡도 비교
 
-<a href="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
 

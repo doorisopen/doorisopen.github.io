@@ -38,26 +38,26 @@ cover:  "/assets/instacode.png"
 
 ### 합집합 찾기(Union-Find)의 알고리즘 예시
 
-<a href="/assets/images/algorithm/unionfind1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfind1.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/unionfind1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/unionfind1.JPG" title="Check out the image">
 </a>
 
 * __Step 1과__ 같이 여러개의 노드가 연결되지 않고 존재한다고 하자. 그리고 배열에 모든 값이 각자 자기 자신을 가리키도록 만든다. 배열의 __첫 번째 행은 '노드 번호'를__ 의미하고 __두 번째 행은 '부모 노드 번호'를__ 의미한다. 즉, _자기 자신이 어떠한 부모에 포함되어 있는지를 의미한다._ 
 
-<a href="/assets/images/algorithm/unionfind2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfind2.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/unionfind2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/unionfind2.JPG" title="Check out the image">
 </a>
 
 * __Step 2와__ 같이 1과 2가 연결되었을때 2번 노드의 두 번째 행인 부모 노드 번호가 '1' 이 들어간다. 이렇게 부모를 합칠 때는 일반적으로 더 작은 값 쪽으로 합친다. 이것을 __Union__ 이라고 한다.
 
-<a href="/assets/images/algorithm/unionfind3.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfind3.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/unionfind3.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/unionfind3.JPG" title="Check out the image">
 </a>
 
 * __Step 3에서__ 2와 3이 연결이 된다면 3번의 부모 노드 번호는 2가 된다. 그러나 여기서 중요한 점은 __'1과 3이 연결되었는지는 어떻게 파악할 수 있는가'__ 이다. 1과 3의 부모가 각각 1과 2로 다르기 때문에 '부모 노드'만 보고는 한번에 파악할 수 없다. 그렇기 때문에 __재귀 함수가__ 사용된다.
 
-<a href="/assets/images/algorithm/unionfind4.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfind4.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/unionfind4.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/unionfind4.JPG" title="Check out the image">
 </a>
 
 * __Step 4와__ 같이 3의 부모를 찾기 위해서는 먼저 3이 가리키고 있는 2를 찾는다. 그러면 2의 부모가 1을 가리키고 있으므로 결과적으로 3의 부모는 1이 되는것을 파악할 수 있는 것이다.

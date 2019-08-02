@@ -28,21 +28,21 @@ cover:  "/assets/instacode.png"
 
 ### 플로이드 와샬 알고리즘(Floyd Warshall Algorithm)의 알고리즘 예시
 
-<a href="/assets/images/algorithm/floydwarshall.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall.JPG" title="Check out the image">
 </a>
 
 위의 그래프를 이차원 배열의 형태로 출력하면 다음과 같다.
 * 현재까지 계산된 최소 비용 테이블
-<a href="/assets/images/algorithm/floydwarshall_init.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_init.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_init.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_init.JPG" title="Check out the image">
 </a>
 
  이 테이블은 __'현재까지 계산된 최소 비용'__ 을 의미한다. 이러한 이차원 배열을 반복적으로 갱신하여 최종적으로 모든 최소비용을 구하면 된다. 바로 그러한 반복의 기준이 __'거쳐가는 정점'__ 인 것이다.
 
 * 노드 1을 거쳐가는 경우
-<a href="/assets/images/algorithm/floydwarshall_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_1.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_1.JPG" title="Check out the image">
 </a>
 
 노드 1을 거쳐가는 경우 회색으로 칠해진 12개의 공간만을 갱신해주면된다.
@@ -52,26 +52,26 @@ cover:  "/assets/instacode.png"
 
 즉, 1을 거쳐서 가는 경우가 더 빠른 경우가 존재한다면 빠른 경우로 최소 비용을 계산한다. 그 결과 다음과 같이 표가 구성된다.
 * 노드 1을 거쳐가는 경우 결과 테이블
-<a href="/assets/images/algorithm/floydwarshall_1_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_1_1.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_1_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_1_1.JPG" title="Check out the image">
 </a>
 
 
 * 노드 2을 거쳐가는 경우 결과 테이블
-<a href="/assets/images/algorithm/floydwarshall_2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_2.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_2.JPG" title="Check out the image">
 </a>
 
 
 * 노드 3을 거쳐가는 경우 결과 테이블
-<a href="/assets/images/algorithm/floydwarshall_3.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_3.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_3.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_3.JPG" title="Check out the image">
 </a>
 
 
 * 위와 같은 방식으로 노드 4번 5번에 대해서도 수행해주면 다음과 같은 결과가 만들어진다.
-<a href="/assets/images/algorithm/floydwarshall_result.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/floydwarshall_result.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/floydwarshall_result.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/floydwarshall_result.JPG" title="Check out the image">
 </a>
 
 

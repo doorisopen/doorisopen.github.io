@@ -30,8 +30,8 @@ cover:  "/assets/instacode.png"
 * 대표적인 DP 문제로 피보나치 수열을 들 수 있다.
 * 피보나치 함수를 푸는방법으로 __재귀함수를__ 이용한 방법이 있지만 느리다. 또한 수가 커질수록 엄청난 스택이 쌓인다.
 
-<a href="/assets/images/algorithm/dp_fib.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/dp_fib.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/dp_fib.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/dp_fib.JPG" title="Check out the image">
 </a>
 
 * __피보나치 수열의 점화식 :__ D[i] = D[i - 1]  + D[i - 2]

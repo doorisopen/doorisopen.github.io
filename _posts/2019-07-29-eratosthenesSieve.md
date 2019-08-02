@@ -18,8 +18,8 @@ cover:  "/assets/instacode.png"
 
 ### 에라토스테네스의 체의 알고리즘 예시
 
-<a href="/assets/images/algorithm/Sieve_of_Eratosthenes_animation.gif" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/Sieve_of_Eratosthenes_animation.gif" title="Check out the image">
+<a href="{{ site.algorithm_img }}/Sieve_of_Eratosthenes_animation.gif" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/Sieve_of_Eratosthenes_animation.gif" title="Check out the image">
 </a>
 
 

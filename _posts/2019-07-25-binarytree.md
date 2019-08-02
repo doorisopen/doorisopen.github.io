@@ -37,8 +37,8 @@ cover:  "/assets/instacode.png"
 
 
 * __이진트리(Binary Tree)__ 형태
-<a href="/assets/images/datastructure/binarytreeshape.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/datastructure/binarytreeshape.JPG" title="Check out the image">
+<a href="{{ site.datastructure_img }}/binarytreeshape.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.datastructure_img }}/binarytreeshape.JPG" title="Check out the image">
 </a>
 
 
@@ -46,8 +46,8 @@ cover:  "/assets/instacode.png"
 
 
 ### 이진 트리(Binary Tree)의 알고리즘 예시
-<a href="/assets/images/datastructure/binarytree.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/datastructure/binarytree.JPG" title="Check out the image">
+<a href="{{ site.datastructure_img }}/binarytree.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.datastructure_img }}/binarytree.JPG" title="Check out the image">
 </a>
 
 

@@ -18,12 +18,12 @@ cover:  "/assets/instacode.png"
 
 ### 계수 정렬(Counting Sort)의 알고리즘 예시
 
-<a href="/assets/images/algorithm/sort/countingsort1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/countingsort1.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/countingsort1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/countingsort1.JPG" title="Check out the image">
 </a>
 
-<a href="/assets/images/algorithm/sort/countingsort2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/countingsort2.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/countingsort2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/countingsort2.JPG" title="Check out the image">
 </a>
 
 결과 적으로 1 1 2 2 2 3 3 3 3 4 4 5 결과를 출력하게된다.
@@ -69,8 +69,8 @@ int main(void){
 
 ### 정렬 알고리즘 시간복잡도 비교
 
-<a href="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/sort/sorting_bigo_comp.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}/sort/sorting_bigo_comp.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}/sort/sorting_bigo_comp.JPG" title="Check out the image">
 </a>
 
 
