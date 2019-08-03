@@ -9,11 +9,14 @@ cover:  "/assets/instacode.png"
 ---
 
 ## 목차
->> __1. 단순 문자열 매칭__
+>> __1. 단순 문자열 매칭__ <br>
 >> __2. KMP(Knuth-Morris-Pratt)__
 
 
 <hr />
+
+<br>
+<br>
 
 ## 단순 문자열 매칭 알고리즘
 ### 단순 문자열 매칭 알고리즘 이란?
