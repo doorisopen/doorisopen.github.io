@@ -11,7 +11,7 @@ cover:  "/assets/instacode.png"
 <br />
 <br />
 
->> 해당 게시글의 전체 소스코드는 이곳 <a href="https://github.com/doorisopen/SpringSpring/tree/d129bbf2a8d3a585fb650110f8713f4ec2a65bac"><strong>Github</strong></a>을 참고해 주세요
+>> 해당 게시글의 전체 소스코드는 이곳 <a href="https://github.com/doorisopen/SpringSpring/tree/d129bbf2a8d3a585fb650110f8713f4ec2a65bac"><strong>Github</strong></a>를 참고해 주세요
 
 <br />
 <br />
