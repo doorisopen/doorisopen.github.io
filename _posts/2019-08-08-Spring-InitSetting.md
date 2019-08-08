@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring]1.개발 환경 설정"
+title:  "[Spring] 1.개발 환경 설정"
 date:   2019-08-08 10:36:59
 author: me
 categories: Spring
@@ -93,6 +93,9 @@ cover:  "/assets/instacode.png"
 </a>
 
 
+<hr />
+
+
 ### 관련된 Post
 
 
@@ -100,4 +103,4 @@ cover:  "/assets/instacode.png"
 
 
 ### References
-> * <a href=""><a>
+
