@@ -5,7 +5,7 @@ date:   2019-08-11 14:02:59
 author: me
 categories: AWS
 tags: AWS EC2 web Server free tier
-cover:  "{{ site.aws_img }}/awscover.png"
+cover:  "/assets/images/Aws/awscover.png"
 ---
 
 <br />
