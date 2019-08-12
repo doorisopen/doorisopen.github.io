@@ -11,31 +11,22 @@ cover:  "/assets/images/Aws/awscover.png"
 <br />
 <br />
 
-이번에는 Putty를 통해 우리가 만든 EC2 인스턴스에 접속을 해보겠습니다.
-
-인스턴스 생성이 안되신분들은 이전 게시글을 통해서 우선 생성해주세요!
-
-http://rumor1993.tistory.com/25
+>> 이번에는 Putty를 통해 우리가 만든 EC2 인스턴스에 접속을 해볼거다. <br>
+>> 인스턴스 생성이 안되었다면 <a href="https://doorisopen.github.io/aws/2019/08/11/AWS-freetier-ec2.html">이곳</a> 를 참고하면된다.
 
 
-
-[AWS 프리티어 사용법] 1 - EC2 인스턴스 생성
-
-AWS (Amazon Web Services) 101 세미나를 다녀오고 이번 기회에 AWS를 사용해보기로 했습니다. 
-
-
-
+<hr />
 
 
 ### 1. Putty 다운로드
-* Putty는 <a href="https://putty.ko.softonic.com/">이곳<a> 홈페이지를 통해서 다운로드를 받아주세요
+* Putty는 <a href="https://putty.ko.softonic.com/">이곳</a> 홈페이지를 통해서 다운로드를 받아주세요
 
 
 <hr />
 
 
 ### 2. Puttygen 실행
-> Puttygen은 <a href="https://www.puttygen.com/">이곳<a> 홈페이지를 통해서 다운로드를 받아주세요
+> Puttygen은 <a href="https://www.puttygen.com/">이곳</a> 홈페이지를 통해서 다운로드를 받아주세요
 
 * Puttygen을 통해서 ppk파일을 우선 만들어야합니다.
 * 상단에 위치한 Conversions 를 누르시면 Import key 가 하단메뉴로 나타난다 그것을 클릭해준다. 
