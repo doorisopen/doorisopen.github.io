@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[AWS Free Tier] 1.EC2 인스턴스 생성"
-date:   2019-08-11 14:02:59
+title:  "[AWS Free Tier] 2.Putty를 통해 접속하기"
+date:   2019-08-12 23:20:59
 author: me
 categories: Aws
-tags: AWS EC2 web Server free tier
+tags: AWS EC2 web Server free tier Putty
 cover:  "/assets/images/Aws/awscover.png"
 ---
 
@@ -13,6 +13,9 @@ cover:  "/assets/images/Aws/awscover.png"
 
 >> 이번에는 Putty를 통해 우리가 만든 EC2 인스턴스에 접속을 해볼거다. <br>
 >> 인스턴스 생성이 안되었다면 <a href="https://doorisopen.github.io/aws/2019/08/11/AWS-freetier-ec2.html">이곳</a> 를 참고하면된다.
+
+<br />
+<br />
 
 
 <hr />
@@ -44,6 +47,7 @@ cover:  "/assets/images/Aws/awscover.png"
 </a>
 
 > __private key의 저장 위치를 꼭 기억해야한다. 혹여나 실수로 github와 같은 곳에 유출되지 않도록 조심해야한다.__
+
 
 <hr />
 
