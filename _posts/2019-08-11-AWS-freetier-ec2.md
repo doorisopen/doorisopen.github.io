@@ -3,7 +3,7 @@ layout: post
 title:  "[AWS Free Tier] 1.EC2 인스턴스 생성"
 date:   2019-08-11 14:02:59
 author: me
-categories: AWS
+categories: Aws
 tags: AWS EC2 web Server free tier
 cover:  "/assets/images/Aws/awscover.png"
 ---
