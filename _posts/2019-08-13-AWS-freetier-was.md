@@ -55,8 +55,10 @@ cover:  "/assets/images/Aws/awscover.png"
 
 
 #### 2. Tomcat 설치
-* yum list | grep tomcat 명령어를 통해 yum 으로 설치할 수 있는 목록을 확인할 수 있다. 그러나 이는 Tomcat8 버전 까지 지원 해주기 때문에 최신 버전을 원하는 사람은 별로 도움이 되지 않는다
 
+* __yum list | grep tomcat 명령어__ 를 통해 yum 으로 설치할 수 있는 목록을 확인할 수 있다.<br/>
+ 그러나, 이는 Tomcat8 버전 까지 지원 해주기 때문에 최신 버전을 원하는 사람은 별로 도움이 되지 않는다
+ 
 * 최신 버전의 Tomcat을 원하지 않는다면 아래의 단계를 수행하면된다
 1. __sudo yum install tomcat8 명령어__ 입력
 2. __sudo yum install tomcat8-admin-webapps 명령어__ 입력
