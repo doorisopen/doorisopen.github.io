@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[AWS Free Tier] 2.Putty를 통해 접속하기"
+title:  "[AWS Free Tier] 2 - Putty를 통해 접속하기"
 date:   2019-08-12 23:20:59
 author: me
 categories: Aws

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[AWS Free Tier] 1.EC2 인스턴스 생성"
+title:  "[AWS Free Tier] 1 - EC2 인스턴스 생성"
 date:   2019-08-11 14:02:59
 author: me
 categories: Aws
