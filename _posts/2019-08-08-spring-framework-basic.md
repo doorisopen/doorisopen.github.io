@@ -8,17 +8,14 @@ tags: Spring Framework web
 cover:  "/assets/images/Spring/springcover.png"
 ---
 
+
 <br />
 <br />
+
 
 ### 목차
-
-<strong>
-
->> 1. 웹 어플리케이션 아키텍처 개념을 이해
->> 2. 스프링 프레임워크 특징을 이해
-
-</strong>
+>> 1. __웹 어플리케이션 아키텍처 개념을 이해__
+>> 2. __스프링 프레임워크 특징을 이해__
 
 
 <br />

@@ -14,14 +14,9 @@ cover:  "/assets/images/Spring/springcover.png"
 
 
 ### 목차
-
-<strong>
-
->> 1. Maven의 기본 정의 이해
->> 2. Maven의 프로젝트 관리 방법 이해
->> 3. Maven의 빌드 자동화 기능을 이해
-
-</strong>
+>> 1. __Maven의 기본 정의 이해__
+>> 2. __Maven의 프로젝트 관리 방법 이해__
+>> 3. __Maven의 빌드 자동화 기능을 이해__
 
 
 <br />
