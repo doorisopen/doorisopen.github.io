@@ -110,6 +110,7 @@ cover:  "/assets/images/Aws/awscover.png"
 
 
 ### References
+> * <a href="https://ellieya.tistory.com/157">[LINUX] 리눅스에 톰켓 서비스 등록하기<a>
 > * <a href="http://progtrend.blogspot.com/2018/07/aws-amazon-linux-2-tomcat-9.html">(AWS) Amazon Linux 2에 Tomcat 9 설치하기<a>
 > * <a href="https://goddaehee.tistory.com/74?category=250744">CentOS7 톰캣 설치<a>
 > * <a href="https://hostpresto.com/community/tutorials/how-to-install-apache-tomcat-9-on-centos-7/">How to Install Apache Tomcat 9 on CentOS 7<a>
