@@ -5,7 +5,7 @@ date:   2019-08-08 10:00:00
 author: me
 categories: Spring
 tags: Spring Framework web 
-cover:  "/assets/instacode.png"
+cover:  "/assets/images/Spring/springcover.png"
 ---
 
 <br />
