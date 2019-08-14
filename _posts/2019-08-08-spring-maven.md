@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring] 3 - Maven"
+title:  "[Spring] 2 - Maven"
 date:   2019-08-14 14:51:59
 author: me
 categories: Spring
