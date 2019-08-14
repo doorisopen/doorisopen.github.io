@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring] 1.개발 환경 설정"
+title:  "[Spring] 1 - 개발 환경 설정"
 date:   2019-08-08 10:36:59
 author: me
 categories: Spring
@@ -114,4 +114,4 @@ cover:  "/assets/images/Spring/springcover.png"
 
 
 ### References
-
+* 대학교 웹 프레임워크 수업 정리한 내용 입니다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring] 0.웹프레임워크 기초"
+title:  "[Spring] 0 - 웹프레임워크 기초"
 date:   2019-08-08 10:00:00
 author: me
 categories: Spring
@@ -12,8 +12,14 @@ cover:  "/assets/images/Spring/springcover.png"
 <br />
 
 ### 목차
+
+<strong>
+
 >> 1. 웹 어플리케이션 아키텍처 개념을 이해
 >> 2. 스프링 프레임워크 특징을 이해
+
+</strong>
+
 
 <br />
 <br />
