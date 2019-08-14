@@ -99,5 +99,20 @@ cover:  "/assets/images/Aws/awscover.png"
   <img src="{{ site.aws_img }}/freetier_was_8.JPG" title="Check out the image">
 </a>
 
+<br />
 
->> tomcat 시작을 위한 init 스크립트를 생성하는 방법은 추후에 추가 예정...
+>> __tomcat 시작을 위한 init 스크립트를 생성하는 방법은 추후에 추가 예정...__
+
+<br />
+
+
+<hr />
+
+
+### References
+> * <a href="http://progtrend.blogspot.com/2018/07/aws-amazon-linux-2-tomcat-9.html">(AWS) Amazon Linux 2에 Tomcat 9 설치하기<a>
+> * <a href="https://goddaehee.tistory.com/74?category=250744">CentOS7 톰캣 설치<a>
+> * <a href="https://hostpresto.com/community/tutorials/how-to-install-apache-tomcat-9-on-centos-7/">How to Install Apache Tomcat 9 on CentOS 7<a>
+> * <a href="http://dev.crois.net/2019/02/10/centos7-tomcat-9-install/">How to Install Apache Tomcat 9 on CentOS 7<a>
+> * <a href="https://hostpresto.com/community/tutorials/how-to-install-apache-tomcat-9-on-centos-7/">[CentOS7] Tomcat 9 install<a>
+> * <a href="https://sethlee.tistory.com/2">centos 7.0에서 was(tomcat9) 설치하기!<a>
