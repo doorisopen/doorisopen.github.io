@@ -269,3 +269,5 @@ public class JUnitMember {
 > import org.springframework.test.context.junit4.SpringJUnit4ClassRunner; <br />
 >> __프로젝트 오른쪽 클릭 -> Maven -> Project Update__ 를 해주면 된다.
 
+### References
+* 대학교 웹 프레임워크 수업 정리한 내용 입니다.
