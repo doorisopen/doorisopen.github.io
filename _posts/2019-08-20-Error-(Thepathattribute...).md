@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[ERROR] The path attribute with value [...]...[경로\프로젝트명.xml] has been ignored"
-date:   2019-08-20 18:25:59
+title:  "[ERROR] The path attribute with value... has been ignored"
+date:   2019-08-20 18:48:59
 author: me
 categories: Error
 tags: Spring Error Web Server Tomcat
@@ -9,7 +9,7 @@ cover:  "/assets/images/Spring/springcover.png"
 ---
 
 
-Tomcat 서버를 돌리다가 아래와 같은 경고 메시지 받았다 <br />
+Spring 프로젝트를 진행하면서 Tomcat 서버를 돌리다가 아래와 같은 경고 메시지 받았다 <br />
 
 <a href="{{ site.error_img }}/spring_error2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="{{ site.error_img }}/spring_error2.JPG" title="Check out the image">
