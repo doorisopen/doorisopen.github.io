@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[ERROR] The path attribute with value [/myspring] in deployment descriptor [경로\프로젝트명.xml] has been ignored"
+title:  "[ERROR] The path attribute with value [...]...[경로\프로젝트명.xml] has been ignored"
 date:   2019-08-20 18:25:59
 author: me
 categories: Error
@@ -23,4 +23,4 @@ __경고: The path attribute with value [/myspring] in deployment descriptor[C:\
 
 해결 방법은 아래의 오류를 해결하니 동시에 잡혔다 <br />
 
-<a href=""><a>
+<a href="https://doorisopen.github.io/error/2019/08/20/Error-(SetContextPropertiesRule).html">Error-(SetContextPropertiesRule)<a>

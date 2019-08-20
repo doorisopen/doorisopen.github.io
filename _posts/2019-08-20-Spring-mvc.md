@@ -128,6 +128,7 @@ __2. DispatcherServlet 클래스__
   + 웹 어플리케이션 컨텍스트(WAC) 등록 설정
   + CharacterEncodingFilter 설정
     - 한국어 사용을 위한 문자 인코딩 방식을 설정
+    
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
