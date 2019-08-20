@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[ERROR] The path attribute with value [/myspring] in deployment descriptor [경로\프로젝트명.xml] has been ignored"
-date:   2019-08-20 17:20:59
+date:   2019-08-20 18:25:59
 author: me
 categories: Error
 tags: Spring Error Web Server Tomcat
