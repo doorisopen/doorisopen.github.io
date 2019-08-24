@@ -5,7 +5,7 @@ date:   2019-08-24 23:42:40
 author: me
 categories: Django
 tags: Django Framework Python Guide
-cover:  "/assets/images/Django/springcover.png"
+cover:  "/assets/images/Django/djangocover.png"
 ---
 
 
