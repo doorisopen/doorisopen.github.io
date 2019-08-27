@@ -99,7 +99,6 @@ cover:  "/assets/images/Spring/springcover.png"
   + REST에서 하나의 자원은 JSON, XML, TEXT, RSS 등 여러 형태의 Representation으로 나타내어 질 수 있다
   + JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적이다
 
-<hr/>
 
 #### REST 특징
 * __Server-Client(서버-클라이언트 구조)__
@@ -199,10 +198,23 @@ C:\WINDOWS\system32>curl http://localhost:8080/myspring/member/rest/json/han
 <hr/>
 
 ## REST API
+
+#### API(Application Programming Interface)란
+* 데이터와 기능의 집합을 제공하여 컴퓨터 프로그램간 상호작용을 촉진하며, 서로 정보를 교환가능 하도록 하는 것
+
+#### REST API의 정의
+* REST 기반으로 서비스 API를 구현한 것
+* 최근 OpenAPI(누구나 사용할 수 있도록 공개된 API: 구글 맵, 공공 데이터 등), 마이크로 서비스(하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍처) 등을 제공하는 업체 대부분은 REST API를 제공한다
+
 #### __REST API 예시__
 <a href="{{ site.spring_img }}/spring_restapi_1.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="{{ site.spring_img }}/spring_restapi_1.JPG" title="Check out the image">
 </a>
+
+#### REST API의 특징
+* 사내 시스템들도 REST 기반으로 시스템을 분산해 확장성과 재사용성을 높여 유지보수 및 운용을 편리하게 할 수 있다
+* REST는 HTTP 표준을 기반으로 구현하므로, HTTP를 지원하는 프로그램 언어로 클라이언트, 서버를 구현할 수 있다
+* 즉, REST API를 제작하면 델파이 클라이언트 뿐 아니라, 자바, C#, 웹 등을 이용해 클라이언트를 제작할 수 있다
 
 #### __스프링MVC에서 REST API 구현하기__
 <a href="{{ site.spring_img }}/spring_restapi_2.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
