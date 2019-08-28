@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Spring] 10 - MyBatis"
-date:   2019-08-28 10:55:40
+date:   2019-08-28 22:55:40
 author: me
 categories: Spring
 tags: Spring Framework web MyBatis
@@ -11,7 +11,7 @@ cover:  "/assets/images/Spring/springcover.png"
 <br />
 <br />
 
->> 해당 게시글의 전체 소스코드는 이곳 <a href=""><strong>Github</strong></a>를 참고해 주세요
+>> 해당 게시글의 전체 소스코드는 이곳 <a href="https://github.com/doorisopen/SpringSpring/tree/1dd8527099f303ac3cb42e088f704a5886119e04"><strong>Github</strong></a>를 참고해 주세요
 
 <br />
 
