@@ -168,6 +168,7 @@ cover:  "/assets/images/Spring/springcover.png"
 * __ResponseEntity__
   + __전체 HTTP 응답을 나타내며__ statusCode, headers, body 3가지 속성 값을 지정할 수 있다
 
+#### JSON
 * __org.doorisopen.myspring.Test.Member.MemberRestTest 내용__
 
 ```
@@ -193,6 +194,78 @@ Microsoft Windows [Version 10.0.17134.950]
 
 C:\WINDOWS\system32>curl http://localhost:8080/myspring/member/rest/json/han
 {"id":"han","passwd":"pwd","username":"kevin","snum":"190101","depart":"computer","mobile":"010-1111-2222","email":"a@gmail.com"}
+```
+
+
+#### XML
+* __ApplicationContext 내용 추가__
+
+```
+<!-- root-context.xml 추가 내용 -->
+<bean id="globalValidator"  class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+</bean>
+
+<!-- servlet-context.xml 추가 내용 -->
+<!-- <mvc:annotation-driven/> 주석 처리하고 아래내용 작성 -->
+<mvc:annotation-driven validator="globalValidator">
+	<mvc:message-converters>
+		<beans:bean class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter"/>  
+	</mvc:message-converters>
+</mvc:annotation-driven>
+```
+
+* __org.doorisopen.myspring.Test.Member.MemberRestTest 내용__
+
+```
+// Xml GET
+	// 
+	@RequestMapping(value="/xml/{id}", method = RequestMethod.GET)
+	public ResponseEntity<MemberVO> MemberReadXml(@PathVariable String id) throws Exception {
+		
+		MemberVO vo = service.readMember(id);
+		logger.info(" /member/rest/xml/{id} REST-API GET method called. then method executed.");
+		HttpHeaders headers = new HttpHeaders();
+		headers.setContentType(new MediaType("application", "xml", Charset.forName("UTF-8")));
+		headers.set("My-Header", "MyHeaderValue");
+		return new ResponseEntity<MemberVO>(vo, headers, HttpStatus.OK);
+	}
+```
+
+* __MemberVO.java__
+
+```
+import javax.xml.bind.annotation.XmlRootElement;
+
+// @XmlRootElement 추가
+@XmlRootElement
+public class MemberVO {
+	private String id;
+	private String passwd;
+	private String username;
+	private String snum;
+	private String depart;
+	private String mobile;
+	private String email;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+  
+  ...
+
+```
+
+* __명령 프롬프트(cmd) 결과__
+
+```
+Microsoft Windows [Version 10.0.17134.950]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>curl http://localhost:8080/myspring/member/rest/xml/han
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><memberVO><depart>computer</depart><email>a@gmail.com</email><id>han</id><mobile>010-1111-2222</mobile><passwd>pwd</passwd><snum>190101</snum><username>kevin</username></memberVO>
+C:\WINDOWS\system32>
 ```
 
 <hr/>
