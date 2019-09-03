@@ -401,10 +401,10 @@ Mapper는 DB에 접근하여 데이터를 조회, 조작을 위한 쿼리문을 
     	UPDATE
     		board
     	SET
-    		boardTitle = #{boardTitle}
-    		, boardContent = #{boardContent}
-			, modifier = #{modifier}
-			, modifyDate = now()
+    		boardTitle = #{boardTitle},
+    		boardContent = #{boardContent},
+			modifier = #{modifier},
+			modifyDate = now()
 		WHERE
 			boardIdx = #{boardIdx}
  	</update>
