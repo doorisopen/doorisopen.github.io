@@ -95,6 +95,14 @@ pre code.hljs {
 		}
 	}
 }
+/*
+*	Category by doorisopen
+*/
+@media screen and (max-width: 768px) {
+	 #right_category {
+		display: none; 
+	} 
+}
 
 /*
 *	Header
