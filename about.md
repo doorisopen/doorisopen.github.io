@@ -5,14 +5,11 @@ author: me
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<!-- <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile"> -->
 
 공부한거 정리하려고 만들어본 일기장
+# PROJECT<span style="color: #3a7bd5;">.</span>
 
-#### Buckit List
-1. PS 
-2. Spring
-3. Spring Boot
-4. javascript
-5. React 
-6. python, Django
+# SKILL<span style="color: #3a7bd5;">.</span>
+
+# Dev Experiences<span style="color: #3a7bd5;">.</span>
