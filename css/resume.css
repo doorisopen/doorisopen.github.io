@@ -6,8 +6,7 @@
   background: #00d2ff;
 }
 
-html,
-body {
+.resume__body {
   font-size: 16px;
   word-break: keep-all;
   font-family: Spoqa Han Sans, sans-serif;
@@ -16,13 +15,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media screen and (max-width: 960px) {
-  html,
-  body {
-    font-size: 14px;
-  }
 }
 
 section {
