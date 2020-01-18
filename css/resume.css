@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+body:before {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: #00d2ff;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
 ::selection {
   background: #00d2ff;
 }
@@ -13,7 +25,6 @@ body {
   font-family: Spoqa Han Sans, sans-serif;
   letter-spacing: -0.3px;
   color: #222222;
-  padding-bottom: 2rem;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,10 +50,6 @@ p {
 a {
   color: #3a7bd5;
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #00d2ff;
 }
 
 h1 {
