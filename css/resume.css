@@ -90,7 +90,7 @@ ul > li {
   padding: 0.2rem 0 0.2rem 1rem;
 }
 
-.resume__container > ul > li:before {
+.row-right > ul > li:before {
   position: absolute;
   left: 0;
   display: inline-block;
