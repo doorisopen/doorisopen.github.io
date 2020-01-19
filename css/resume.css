@@ -46,6 +46,7 @@ h2 {
 h3 {
   font-size: 2rem;
   margin: 0 0 1rem 0;
+  color: #3a7bd5;
 }
 
 h4 {
@@ -65,14 +66,17 @@ h5 {
   color: #333333;
 }
 
-.resume__container > ul {
+ul {
   list-style: none;
+}
+
+.resume__ul {
   padding: 0;
   margin: 0 0 1rem 0;
   font-size: 1.1rem;
 }
 
-.resume__container > ul > li {
+.resume__ul > li {
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
 }
