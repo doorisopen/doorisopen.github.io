@@ -9,12 +9,15 @@
 .resume__body {
   font-size: 16px;
   word-break: keep-all;
-  font-family: Spoqa Han Sans, sans-serif;
   letter-spacing: -0.3px;
   color: #222222;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.resume__container {
+  font-family: Spoqa Han Sans, sans-serif;
 }
 
 section {
