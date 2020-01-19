@@ -9,7 +9,6 @@
 .resume__body {
   font-size: 16px;
   word-break: keep-all;
-  letter-spacing: -0.3px;
   color: #222222;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -18,6 +17,7 @@
 
 .resume__container {
   font-family: Spoqa Han Sans, sans-serif;
+  letter-spacing: -0.3px;
 }
 
 section {
@@ -84,7 +84,7 @@ ul {
   padding: 0.2rem 0 0.2rem 1rem;
 }
 
-.row-right > ul > li:before {
+.resume__ul > li:before {
   position: absolute;
   left: 0;
   display: inline-block;
