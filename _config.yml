@@ -23,6 +23,10 @@ url: "https://doorisopen.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
+
+# disqus 
+disqus_url: https://doop.disqus.com/
+disqus_shortname: doop
 # image settings
 # 2019
 algorithm_img: /assets/images/algorithm
