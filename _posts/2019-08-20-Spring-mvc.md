@@ -116,10 +116,12 @@ cover:  "/assets/images/Spring/springcover.png"
 ```
 
 #### WAC(Web ApplicationContext) 설정
-* 웹 애플리케이션에 사용할 __2가지 애플리케이션 컨텍스트 등록 (web.xml)__
+* 웹 애플리케이션에 사용할 __2가지 애플리케이션 컨텍스트 등록 (web.xml)__ <br />
+
 __1. ContextLoadListner 클래스__
   + 서블릿 컨테이너(Tomcat)에 ContextLoadListner 클래스 등록
-  + __서비스 계층 이하의 빈(@Service, @Repository 등)을 등록__ 하기 위한 클래스
+  + __서비스 계층 이하의 빈(@Service, @Repository 등)을 등록__ 하기 위한 클래스 
+  
 __2. DispatcherServlet 클래스__
   + 서블릿 컨테이너(Tomcat)에 프론트 컨트롤러인 DispatcherServlet 클래스 등록
   + __컨트롤러(@Controller 또는 @Component) 빈을 등록__ 하기 위한 클래스
