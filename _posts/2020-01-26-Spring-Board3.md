@@ -32,17 +32,17 @@ cover:  "/assets/images/Spring/springcover.png"
 * __BoardController__
 
 ```
-    /* 
-	 * 게시글 상세
-	 */
-	@RequestMapping(value = "/boardDetail", method = RequestMethod.GET)
-	public String BoardDetail(Model model, 
-                                BoardVO vo, 
-                                @ModelAttribute("boardIdx") int boardIdx) throws Exception {
-        
-        ...(생략)
+/* 
+ * 게시글 상세
+ */
+@RequestMapping(value = "/boardDetail", method = RequestMethod.GET)
+public String BoardDetail(Model model, 
+                            BoardVO vo, 
+                            @ModelAttribute("boardIdx") int boardIdx) throws Exception {
+    
+    ...(생략)
 
-	}
+}
 ```
 게시글 상세내용을 보여주는 주소인 __"/boardDetail"__ 이 호출될때 조회수를 +1 이 더해지게 구현하면 된다
 
@@ -57,15 +57,15 @@ __/src/main/java/org/doorisopen/myspring/Board/Domain/BoardVO.java__
 
 ```
 private int boardIdx;
-	private String boardTitle;
-	private String boardContent;
-	private String writer;
-	private String writeDate;
-	private String modifier;
-	private String modifyDate;
-	private int important;
-	private int enabled;
-	private int boardViewCnt; // 게시글 조회수 추가
+private String boardTitle;
+private String boardContent;
+private String writer;
+private String writeDate;
+private String modifier;
+private String modifyDate;
+private int important;
+private int enabled;
+private int boardViewCnt; // 게시글 조회수 추가
 
     ...이하생략...
 
@@ -100,13 +100,13 @@ public class BoardDAOImpl implements BoardDAO{
     ...(생략)...
     
     /* 
-	 * 게시글 조회수 증가
-	 */
-	@Override
-	public void BoardViewCntUpdate(int boardIdx) throws Exception {
-		// TODO Auto-generated method stub
-		sqlSession.update(namespace + ".BoardViewCntUpdate", boardIdx);
-	}
+     * 게시글 조회수 증가
+     */
+    @Override
+    public void BoardViewCntUpdate(int boardIdx) throws Exception {
+        // TODO Auto-generated method stub
+        sqlSession.update(namespace + ".BoardViewCntUpdate", boardIdx);
+    }
 }
 ```
 
@@ -114,14 +114,14 @@ public class BoardDAOImpl implements BoardDAO{
 __/src/main/resources/mappers/BoardMapper.xml__
 ```
 <!-- 게시글 조회수 증가 -->
- 	<update id="BoardViewCntUpdate">
-    	UPDATE
-    		board
-    	SET
-    		boardViewCnt = boardViewCnt + 1
-		WHERE
-			boardIdx = #{boardIdx}
- 	</update>
+<update id="BoardViewCntUpdate">
+    UPDATE
+        board
+    SET
+        boardViewCnt = boardViewCnt + 1
+    WHERE
+        boardIdx = #{boardIdx}
+</update>
 ```
 
 
@@ -130,18 +130,18 @@ __/src/main/resources/mappers/BoardMapper.xml__
 
 __/src/main/java/org/doorisopen/myspring/Board/Service/BoardServiceImpl.java__
 ```
-    /* 
-	 * 게시글 상세
-	 */
-	@Override
-	public BoardVO BoardDetail(int boardIdx) throws Exception {
-		// TODO Auto-generated method stub
-		
-		// 게시글 조회수 업데이트
-		dao.BoardViewCntUpdate(boardIdx); // <---- 추가
-		
-		return dao.BoardDetail(boardIdx);
-	}
+/* 
+ * 게시글 상세
+ */
+@Override
+public BoardVO BoardDetail(int boardIdx) throws Exception {
+    // TODO Auto-generated method stub
+    
+    // 게시글 조회수 업데이트
+    dao.BoardViewCntUpdate(boardIdx); // <---- 추가
+    
+    return dao.BoardDetail(boardIdx);
+}
 ```
 
 추가로 BoardRead(List) 에 아래와 같이 작성해주면 게시글 조회수 구현이 끝이 난다
