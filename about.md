@@ -7,8 +7,8 @@ permalink: /about/
 
 <!-- <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile"> -->
 ## Message
->> __Try not to become a man of success.__
->> __but rather try to become a man of value. 😎__
+> __Try not to become a man of success.__
+> __but rather try to become a man of value. 😎__
 
 >> _"성공한 사람보다 가치있는 사람이 되라"_
 
