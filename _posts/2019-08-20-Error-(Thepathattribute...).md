@@ -17,8 +17,9 @@ Spring 프로젝트를 진행하면서 Tomcat 서버를 돌리다가 아래와 �
 
 <br />
 
-__경고: The path attribute with value [/myspring] in deployment descriptor[C:\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\conf\Catalina\localhost\myspring.xml] has been ignored__
-
+```
+경고: The path attribute with value [/myspring] in deployment descriptor[C:\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\conf\Catalina\localhost\myspring.xml] has been ignored
+```
 <br />
 
 해결 방법은 아래의 오류를 해결하니 동시에 잡혔다 <br />

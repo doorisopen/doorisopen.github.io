@@ -35,10 +35,15 @@ publish module context to separate XML files를 체크해주고 저장하면 <br
   <img src="{{ site.error_img }}/spring_error2.JPG" title="Check out the image">
 </a>
 
-__경고: [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:project명' did not find a matching property.__
-<br />
-__경고: The path attribute with value [/myspring] in deployment descriptor[C:\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\conf\Catalina\localhost\myspring.xml] has been ignored__
+```
+경고: [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:project명' did not find a matching property.
+```
 
+<br />
+
+```
+경고: The path attribute with value [/myspring] in deployment descriptor[C:\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\conf\Catalina\localhost\myspring.xml] has been ignored
+```
 
 
 또한, <br />
@@ -86,7 +91,8 @@ Tomcat 6 부터는 server.xml에 정의되지 않는 속성이 있는 경우 WAR
 
 __publish module context to separate XML files를 체크를 해제__ 한 상태여야 한다 <br />
 
-<a href="http://stackoverflow.com/questions/7753409/importing-dynamic-web-project-in-eclipse/7754620#7754620">http://stackoverflow.com/questions/7753409/importing-dynamic-web-project-in-eclipse/7754620#7754620<a>
+<a href="http://stackoverflow.com/questions/7753409/importing-dynamic-web-project-in-eclipse/7754620#7754620">http://stackoverflow<a>
+
 
 > 1. Remove project from Tomcat (rightclick Tomcat, Add/Remove project, remove project)
 > 2. Close project in Eclipse (rightclick project, Close)
