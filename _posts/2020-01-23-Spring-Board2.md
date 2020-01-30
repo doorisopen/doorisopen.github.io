@@ -26,11 +26,12 @@ cover:  "/assets/images/Spring/springcover.png"
 
 <hr />
 
+이전 포스트에 이어서 게시판 결과 화면을 처리 하기 위한 Controller를 작성해보고 View(jsp) 코드를 작성해 볼 것이다. 
 
 ### Controller 작성
-__/src/main/java/org/doorisopen/myspring/Board/Controller/BoardController.java__
 
 ```
+// Path : /src/main/java/org/doorisopen/myspring/Board/Controller/BoardController.java
 @Controller
 @RequestMapping(value="/Board")
 public class BoardController {
