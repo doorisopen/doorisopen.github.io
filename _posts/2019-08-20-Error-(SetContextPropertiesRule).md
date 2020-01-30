@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[ERROR] [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:project' did not find a matching property"
+title:  "[ERROR] Setting property 'source' to 'org.eclipse.jst.jee..' did not find a matching property"
 date:   2019-08-20 18:20:59
 author: me
 categories: Error
