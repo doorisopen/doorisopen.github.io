@@ -100,6 +100,11 @@ int main(void) {
 	return 0;
 }
 ```
+이 코드는 첫 번째 노드인 head를 부터가 아닌 다음 노드 부터 탐색을 한다
+
+만약 head 노드 삭제할경우 다른 노드들이 삭제된 노드를 가지게 되고 문제가 발생할 가능성이 있는 코드이다
+
+그렇기 때문에 이 코드에서는 첫 번째 노드는 삭제를 하지 않는 것 으로 한다
 
 # Reference
 > * [엔지니어대한민국](https://www.youtube.com/watch?v=DzGnME1jIwY)
