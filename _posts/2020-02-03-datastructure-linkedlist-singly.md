@@ -106,5 +106,68 @@ int main(void) {
 
 그렇기 때문에 이 코드에서는 첫 번째 노드는 삭제를 하지 않는 것 으로 한다
 
+# 정렬되지 않은 연결 리스트 중복 값 없애기
+### 버퍼(HashSet) 사용 예시
+<a href="{{ site.2020_datastructure_img }}/linkedlist2_duplicate_buffer.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2020_datastructure_img }}/linkedlist2_duplicate_buffer.JPG" title="Check out the image">
+</a>
+
+`HashSet`을 사용한 이유는 `HashSet` 이라는 데이터 구조는 키 값을 가지고 찾는데 O(1) 밖에 안걸리기 때문이다
+
+* Space: O(n)
+* Time: O(n)
+
+### 포인터(Pointer) 사용 예시
+<a href="{{ site.2020_datastructure_img }}/linkedlist3_duplicate_pointer.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2020_datastructure_img }}/linkedlist3_duplicate_pointer.JPG" title="Check out the image">
+</a>
+
+### 구현 Code(C++)
+```
+// ...내용 생략
+class Link {
+	public:
+		Node* head = new Node();
+		
+		void append(int d);
+		void deleteData(int d);
+		const void retrieved();
+		const void removeDups(); // 내용 추가
+		
+	private:
+		int size = 0;
+};
+
+// ...중간 내용 생략
+
+const void Link::removeDups() {
+		Node *n = head;
+		while(n->next != NULL) {
+			Node *r = n;
+			while(r->next != NULL) {
+				if(n->data == r->next->data) {
+					r->next = r->next->next;
+				} else {
+					r = r->next;
+				}
+			}
+			n = n->next;
+		}
+	}	
+
+int main(void) {
+	Link l;
+	l.append(3);
+	l.append(2);
+	l.append(1);
+	l.append(2);
+	l.append(4);
+	l.retrieved();
+	l.removeDups();
+	l.retrieved();
+	return 0;
+}
+```
+
 # Reference
 > * [엔지니어대한민국](https://www.youtube.com/watch?v=DzGnME1jIwY)
