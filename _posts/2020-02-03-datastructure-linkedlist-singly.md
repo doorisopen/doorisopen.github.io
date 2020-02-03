@@ -122,6 +122,15 @@ int main(void) {
   <img src="{{ site.2020_datastructure_img }}/linkedlist3_duplicate_pointer.JPG" title="Check out the image">
 </a>
 
+N = 0 일때 R이 List Size - n 만큼 반복하기 때문에 __시간은 O(n^2)이__ 소요된다 
+
+또한, 고정된 Pointer 2개만 사용했기 때문에 __공간은 O(1)__ 이다
+
+따라서, Buffer이용한 알고리즘에 비해 시간은 더 많이 소모되지만 공간의 효율이 좋은 알고리즘이다
+
+* Space: O(1)
+* Time: O(n^2)
+
 ### 구현 Code(C++)
 ```
 // ...내용 생략
@@ -142,7 +151,7 @@ class Link {
 
 const void Link::removeDups() {
 		Node *n = head;
-		while(n->next != NULL) {
+		while(n != NULL && n->next != NULL) {
 			Node *r = n;
 			while(r->next != NULL) {
 				if(n->data == r->next->data) {
@@ -168,6 +177,7 @@ int main(void) {
 	return 0;
 }
 ```
+
 
 # Reference
 > * [엔지니어대한민국](https://www.youtube.com/watch?v=DzGnME1jIwY)
