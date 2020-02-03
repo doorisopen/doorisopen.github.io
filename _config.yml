@@ -36,6 +36,9 @@ aws_img: /assets/images/Aws
 error_img: /assets/images/Error
 
 # 2020
+2020_algorithm_img: /assets/images/2020/algorithm
+2020_datastructure_img: /assets/images/2020/datastructure
+2020_spring_img: /assets/images/2020/Spring
 # 2021
 # 2022
 
