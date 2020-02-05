@@ -3,7 +3,7 @@ layout: post
 title:  "[C++/STL] sort()"
 date:   2019-07-15 13:32:30
 author: me
-categories: c++
+categories: Cpp
 tags:	C++ STL Algorithm sort
 cover:  "/assets/instacode.png"
 ---
