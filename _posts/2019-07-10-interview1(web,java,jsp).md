@@ -331,7 +331,6 @@ __23. Wrapper Class의 사용이유를 아나요?__
 
 
 __24. DataBase에서 Index란?__
-
 * Table에 대한 동작 속도를 높여주는 자료구조로서 빠른 검색을 가능하게 해준다.
 
 * 인덱스는 데이터베이스 분야에 있어서 테이블에 대한 동작의 속도를 높여주는 자료 구조를 일컫는다.
@@ -343,6 +342,9 @@ __24. DataBase에서 Index란?__
 + DB에서 자료를 검색하는 두 가지 방법
   + FTS(Full Table Scan) : 테이블을 처음 부터 끝까지 검색하는 방법
   + Index Scan : 인덱스를 검색하여 해당 자료의 테이블을 액세스 하는 방법.
+
+
+[추가 자료](https://github.com/KSH-code/Technical-Interview/blob/master/cs/database-index/README.md)
 
 <hr/>
 
