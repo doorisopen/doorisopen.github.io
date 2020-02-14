@@ -16,7 +16,7 @@ permalink: /about/
 
 주로 아래와 같은 내용을 올릴 예정입니다.
 
-* Web
+* Web(Server)
 * Algorithm
 * Project(journal, issue)
 * Tech
@@ -26,3 +26,6 @@ permalink: /about/
 글솜씨가 없지만, 최대한 깔끔하게 정리된 글을 쓸 것이며 하루하루 성장을 위해 노력할 것입니다.
 
 저의 깃허브 주소는 [이곳](https://github.com/doorisopen) 입니다. 감사합니다.
+
+## 2020
+* PS 하루에 최소 3문제 이상 풀고 정리하기
