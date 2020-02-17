@@ -35,7 +35,7 @@ cover:  "/assets/instacode.png"
 
 ### 코드(C++)
 ```
-// Programmers 완전탐색 모의고사 1번 
+// Programmers 완전탐색 lv1. 모의고사
 #include <iostream>
 #include <string>
 #include <algorithm>
