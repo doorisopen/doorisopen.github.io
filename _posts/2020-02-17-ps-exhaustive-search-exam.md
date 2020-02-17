@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Programmers] 완전탐색 모의고사1"
+title:  "[Programmers] 완전탐색(Exhaustive Search) 모의고사"
 date:   2020-02-17 14:31:59
 author: me
 categories: Ps
@@ -8,7 +8,7 @@ tags:	Problem Solving Ps Algorithm C++
 cover:  "/assets/instacode.png"
 ---
 
-[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42840#)
+[모의고사 - 문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42840#)
 
 
 ### 문제 설명
