@@ -30,7 +30,6 @@ cover:  "/assets/instacode.png"
 * `correct[]` 에서 최대 값을 구하고 최고 득점을 얻은 수포자들을 answer에 저장하고 리턴
 
 ### 코드(C++)
-
 ```
 // Programmers 완전탐색 모의고사 1번 
 #include <iostream>
@@ -96,3 +95,4 @@ int main(void) {
 	return 0;
 }
 ```
+
