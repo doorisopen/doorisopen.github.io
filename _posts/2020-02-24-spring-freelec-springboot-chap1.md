@@ -31,6 +31,7 @@ cover:  "/assets/images/Spring/springcover.png"
 # 스프링 부트와 gradle
 
 * __build.gradle 초기상태__
+
 ```
 plugins: {
     'java'
@@ -56,6 +57,7 @@ dependencies {
 
 
 * __build.gradle 수정__
+
 ```
 buildscript {
     ext { // (1)
@@ -123,7 +125,7 @@ intelliJ에서 생성한 프로젝트를 gitgub와 연동하는 방법을 설명
 
 1. __윈도우 기준(Ctrl + Shift + A)를 사용해 Action 검색창을 열어 share project on github을 검색__ 한다.
 
-2. github 로그인을하고 저장소 이름을 입력하여 저장소를 생성한다. 
+2. __github 로그인을하고 저장소 이름을 입력하여 저장소를 생성__ 한다. 
 
 만약 동기화 과정에서 __커밋 항목으로 추가할 것인지__ 묻는 안내문이 나올 수 있는데 본인이 필요로 한다면 Yes 혹은 No를 선택하면된다. 
 
