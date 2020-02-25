@@ -135,6 +135,9 @@ intelliJ에서 생성한 프로젝트를 gitgub와 연동하는 방법을 설명
 
 
 # IntelliJ 단축키
+* __build.gradle 의존성 자동완성__
+  + Win: Ctrl + Space
+  + Mac: Ctrl + Space
 * __Action 검색창__
   + Win: Ctrl + Shift + A
   + Mac: Command + Shift + A
