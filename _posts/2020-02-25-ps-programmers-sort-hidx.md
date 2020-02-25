@@ -37,31 +37,31 @@ H-Index는 과학자의 생산성과 영향력을 나타내는 지표입니다. 
 4. `if(i <= citations[j])` 만약 i = 0 일때, __0번 이상__ 인용한 논문이라면 `h++`이고 j가 끝까지 돌면 h = 5, 5편이다.
 5. `if(i <= h)` __i(인용 횟수)__ 가 __h(i번 이상 인용한 논문의 개수)__ 보다 작거나 같으면 H-Index가 된다.
 
-ex 1) </br>
-citations -> [0, 1, 3, 5, 6] answer: 3</br>
+ex 1) <br />
+citations -> [0, 1, 3, 5, 6] answer: 3<br />
 
-i=0, h = 5, answer = 0 </br>
-i=1, h = 4, answer = 1 </br>
-i=2, h = 3, answer = 2 </br>
-i=3, h = 3, answer = 3 </br>
-i=4, h = 2, answer = 3 </br>
-i=5, h = 2, answer = 3 </br>
+i=0, h = 5, answer = 0 <br />
+i=1, h = 4, answer = 1 <br />
+i=2, h = 3, answer = 2 <br />
+i=3, h = 3, answer = 3 <br />
+i=4, h = 2, answer = 3 <br />
+i=5, h = 2, answer = 3 <br />
 
-ex 2) </br>
-citations -> [0, 0, 0, 0] answer: 0</br>
+ex 2) <br />
+citations -> [0, 0, 0, 0] answer: 0<br />
 
-i=0, h = 4, answer = 0 </br>
-i=1, h = 0, answer = 0 </br>
-i=2, h = 0, answer = 0 </br>
-i=3, h = 0, answer = 0 </br>
-i=4, h = 0, answer = 0 </br>
+i=0, h = 4, answer = 0 <br />
+i=1, h = 0, answer = 0 <br />
+i=2, h = 0, answer = 0 <br />
+i=3, h = 0, answer = 0 <br />
+i=4, h = 0, answer = 0 <br />
 
-ex 3) </br>
-citations -> [2, 2, 2] answer: 2</br>
+ex 3) <br />
+citations -> [2, 2, 2] answer: 2<br />
 
-i=0, h = 3, answer = 0 </br>
-i=1, h = 3, answer = 1 </br>
-i=2, h = 3, answer = 2 </br>
+i=0, h = 3, answer = 0 <br />
+i=1, h = 3, answer = 1 <br />
+i=2, h = 3, answer = 2 <br />
 i=3, h = 3, answer = 2 
 
 ## 소스코드(C++)
