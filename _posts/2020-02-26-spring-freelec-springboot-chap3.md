@@ -334,6 +334,7 @@ Service의 경우 비지니스 로직 처리를 담당하는 것으로 오해하
 __web 패키지__ 에, PostsApiController / __web.dto 패키지__ 에 PostsSaveRequestDto / __service 패키지__ 에 PostsService를 생성합니다.
 
 * __PostsApiController__
+
 ```
 // PostsApiController.class
 package com.doop.book.springboot.web;
@@ -357,6 +358,7 @@ public class PostsApiController {
 ```
 
 * __PostsService__
+
 ```
 // PostsService
 package com.doop.book.springboot.service.posts;
@@ -391,7 +393,6 @@ public class PostsService {
         return new PostsResponseDto(entity);
     }
 }
-
 ```
 
 Controller와 Service 코드를 살펴보면 @Autowired가 없는 것을 볼 수 있다. 스프링에서 Bean 주입 방식에는 3가지가 있다.
@@ -408,6 +409,7 @@ __@RequiredArgsConstructor__ 는 final로 선언된 모든 필드를 인자값�
 해당 클래스의 의존성 관계가 변경될 때마다 생성자 코드를 계속해서 수정하는 번거로움을 해결하기 위함입니다.
 
 * __PostsSaveRequestDto__
+
 ```
 // PostsSaveRequestDto
 package com.doop.book.springboot.web.dto;
@@ -529,6 +531,7 @@ public class PostsApiControllerTest {
 ## 수정/조회 API
 PostsApiController, PostsResponseDto, PostsUpdateRequestDto, Posts, PostsService 수정 필요
 * __PostsApiController__
+
 ```
 package com.doop.book.springboot.web;
 ...(중략)
@@ -550,6 +553,7 @@ public class PostsApiController {
 ```
 
 * __PostsResponseDto__
+
 ```
 package com.doop.book.springboot.web.dto;
 
@@ -576,6 +580,7 @@ __PostsResponseDto__ 는 __Entity의 필드 중 일부만 사용__ 하므로 생
 
 
 * __PostsUpdateRequestDto__
+
 ```
 package com.doop.book.springboot.web.dto;
 
@@ -598,6 +603,7 @@ public class PostsUpdateRequestDto {
 ```
 
 * __Posts__
+
 ```
 package com.doop.book.springboot.domain.posts;
 ...(중략)
@@ -615,6 +621,7 @@ public class Posts {
 ```
 
 * __PostsService__
+
 ```
 package com.doop.book.springboot.service.posts;
 ...(중략)
@@ -646,6 +653,7 @@ JPA의 엔티티 매니저가 활성화된 상태(Spring Data Jpa의 기본 값)
 
 ## 수정 기능 테스트 코드 작성
 * __PostsApiControllerTest__
+
 ```
 package com.doop.book.springboot.web;
 
@@ -756,6 +764,7 @@ public class Posts extends BaseTimeEntity {
 
 ## 테스트 코드 작성
 * __PostsRepositoryTest__ 코드 추가
+
 ```
 package com.doop.book.springboot.web.domain.posts;
 ...(중략)
