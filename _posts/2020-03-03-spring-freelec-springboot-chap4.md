@@ -191,12 +191,12 @@ src/main/resources/template 디렉토리에 __layout 디렉토리를 추가로 �
 * index.mustache
 
 ```
-\{{>layout/header\}} <!-- (1) -->
+\{\{>layout/header\}\} <!-- (1) -->
     <h1>스프링 부트로 시작하는 웹 서비스</h1>
-\{{>layout/footer\}}
+\{\{>layout/footer\}\}
 ```
 
-* (1) `\{{>layout/header\}}` {{>}}는 현재 머스테치 파일을 기준으로 다른 파일을 가져옵니다.
+* (1) `\{\{>layout/header\}\}` \{\{>\}\}는 현재 머스테치 파일을 기준으로 다른 파일을 가져옵니다.
 
 ## 게시글 등록
 1. 게시글 등록 Button을 만들기
