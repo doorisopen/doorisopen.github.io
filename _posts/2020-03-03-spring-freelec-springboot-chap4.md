@@ -191,12 +191,12 @@ src/main/resources/template 디렉토리에 __layout 디렉토리를 추가로 �
 * index.mustache
 
 ```
-{{>layout/header}} <!-- (1) -->
+\{{>layout/header\}} <!-- (1) -->
     <h1>스프링 부트로 시작하는 웹 서비스</h1>
-{{>layout/footer}}
+\{{>layout/footer\}}
 ```
 
-* (1) `{{>layout/header}}` {{>}}는 현재 머스테치 파일을 기준으로 다른 파일을 가져옵니다.
+* (1) `\{{>layout/header\}}` {{>}}는 현재 머스테치 파일을 기준으로 다른 파일을 가져옵니다.
 
 ## 게시글 등록
 1. 게시글 등록 Button을 만들기
@@ -331,9 +331,9 @@ __footer.mustache__ 에 index.js를 추가합니다.
 
 index.js 호출 코드를 보면 __절대 경로(/)__ 로 시작합니다. 스프링 부트는 기본적으로 __src/main/resources/static__ 에 위치한 자바스크립트, CSS, 이미지 등 정적 파일들을 URL에서 /로 설정됩니다. 또한, 아래와 같이 파일이 위치하면 위치에 맞게 호출이 가능합니다.
 
-* src/main/resources/static/js/... `http://도메인/js/...`
-* src/main/resources/static/css/... `http://도메인/css/...`
-* src/main/resources/static/image/... `http://도메인/image/...`
+* src/main/resources/static/js/... `(http://도메인/js/...)`
+* src/main/resources/static/css/... `(http://도메인/css/...)`
+* src/main/resources/static/image/... `(http://도메인/image/...)`
 
 
 ## 게시글 조회
