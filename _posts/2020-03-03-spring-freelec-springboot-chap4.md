@@ -191,12 +191,13 @@ src/main/resources/template 디렉토리에 __layout 디렉토리를 추가로 �
 * index.mustache
 
 ```
-{.{>layout/header}.} <!-- {{>layout/header}} (1) -->
+{.{>layout/header}.} <!-- (1) -->
     <h1>스프링 부트로 시작하는 웹 서비스</h1>
 {.{>layout/footer}.}
 ```
 
 * (1) `{.{>layout/header}.}` \{\{>\}\}는 현재 머스테치 파일을 기준으로 다른 파일을 가져옵니다.
+  + 참고로 `{.{...}.}` 이렇게 작성되어있는데 __머스테치 문법이 마크다운에서 인식을 못하는건지 해당 내용이 생략__ 되는 현상이 있다. 그래서 `.`를 추가했다 만약 코드를 사용할때는 `.`은 제외하고 사용해야한다.
 
 ## 게시글 등록
 1. 게시글 등록 Button을 만들기
@@ -208,7 +209,7 @@ src/main/resources/template 디렉토리에 __layout 디렉토리를 추가로 �
 * index.mustache
 
 ```
-{{>layout/header}}
+{.{>layout/header}.}
 
     <h1>스프링 부트로 시작하는 웹 서비스</h1>
     <div class="col-md-12">
@@ -218,7 +219,7 @@ src/main/resources/template 디렉토리에 __layout 디렉토리를 추가로 �
             </div>
         </div>
     </div>
-{{>layout/footer}}
+{.{>layout/footer}.}
 ```
 ### 2. 등록 페이지를 호출하는 URL을 IndexController에 추가
 * IndexController
@@ -241,7 +242,7 @@ index.mustache와 같은 위치에 __posts-save.mustache 파일 생성__
 * posts-save.mustache
 
 ```
-{{>layout/header}}
+{.{>layout/header}.}
     <h1>게시글 등록</h1>
     <div class="col-md-12">
         <div calss="col-md-4">
@@ -263,7 +264,7 @@ index.mustache와 같은 위치에 __posts-save.mustache 파일 생성__
             <button type="button" class="btn btn-primary" id="btn-save">등록</button>
         </div>
     </div>
-{{>layout/footer}}
+{.{>layout/footer}.}
 ```
 
 ### 4. 게시글 등록 API 기능(js)
@@ -343,7 +344,7 @@ index.js 호출 코드를 보면 __절대 경로(/)__ 로 시작합니다. 스�
 ### 1. index.mustache 수정
 
 ```
-{{>layout/header}}
+{.{>layout/header}.}
     <h1>스프링 부트로 시작하는 웹 서비스</h1>
     <div class="col-md-12">
         <div calss="row">
@@ -364,23 +365,23 @@ index.js 호출 코드를 보면 __절대 경로(/)__ 로 시작합니다. 스�
         </tr>
         </thead>
         <tbody id="tbody">
-        {{#posts}} <!-- (1) -->
+        {.{#posts}.} <!-- (1) -->
             <tr>
-                <td>{{id}}</td> <!-- (2) -->
-                <td><a href="/posts/update/{{id}}">{{title}}</a></td>
-                <td>{{author}}</td>
-                <td>{{modifiedDate}}</td>
+                <td>{.{id}.}</td> <!-- (2) -->
+                <td><a href="/posts/update/{.{id}.}">{.{title}.}</a></td>
+                <td>{.{author}.}</td>
+                <td>{.{modifiedDate}.}</td>
             </tr>
-        {{/posts}}
+        {.{/posts}.}
         </tbody>
     </table>
-{{>layout/footer}}
+{.{>layout/footer}.}
 ```
 
-* (1) `{\{#posts}\}`
+* (1) `{.{#posts}.}`
   + posts 라는 List를 순회합니다.
   + Java의 for문과 동일하게 생각하면 됩니다.
-* (2) `{\{id}\} 등의 {\{변수명}\}`
+* (2) `{.{id}.} 등의 {.{변수명}.}`
   + List에서 뽑아낸 객체의 필드를 사용합니다.
 
 ### 2. Controller, Service, Repository 수정
@@ -515,7 +516,7 @@ templates 아래에 __posts-update.mustache 파일을 생성__ 합니다.
 * posts-update.mustache
 
 ```
-{{>layout/header}}
+{.{>layout/header}.}
 
     <h1>게시글 수정</h1>
     <div class="col-md-12">
@@ -523,19 +524,19 @@ templates 아래에 __posts-update.mustache 파일을 생성__ 합니다.
             <form>
                 <div class="form-group">
                     <label for="id">글 번호</label>
-                    <input type="text" class="form-control" id="id" value="{{post.id}}" readonly>
+                    <input type="text" class="form-control" id="id" value="{.{post.id}.}" readonly>
                 </div>
                 <div class="form-group">
                     <label for="title">제목</label>
-                    <input type="text" class="form-control" id="title" value="{{post.title}}">
+                    <input type="text" class="form-control" id="title" value="{.{post.title}.}">
                 </div>
                 <div class="form-group">
                     <label for="author">작성자</label>
-                    <input type="text" class="form-control" id="author" value="{{post.author}}" readonly>
+                    <input type="text" class="form-control" id="author" value="{.{post.author}.}" readonly>
                 </div>
                 <div class="form-group">
                     <label for="content">내용</label>
-                    <textarea class="form-control" id="content">{{post.content}}</textarea>
+                    <textarea class="form-control" id="content">{.{post.content}.}</textarea>
                 </div>
             </form>
             <a href="/" role="button" class="btn btn-secondary">취소</a>
@@ -544,10 +545,10 @@ templates 아래에 __posts-update.mustache 파일을 생성__ 합니다.
         </div>
     </div>
 
-{{>layout/footer}}
+{.{>layout/footer}.}
 ```
 
-* `{\{post.id}\}`
+* `{.{post.id}.}`
   + 머스테치는 객체의 필드 접근 시 점(Dot)으로 구분합니다.
   + 즉, Post 클래스의 id에 대한 접근은 post.id로 사용할 수 있습니다.
 * `readonly`
@@ -652,14 +653,14 @@ main.init();
 
 ```
     <tbody id="tbody">
-        {{#posts}}
+        {.{#posts}.}
             <tr>
-                <td>{{id}}</td>
-                <td><a href="/posts/update/{{id}}">{{title}}</a></td>
-                <td>{{author}}</td>
-                <td>{{modifiedDate}}</td>
+                <td>{.{id}.}</td>
+                <td><a href="/posts/update/{.{id}.}">{.{title}.}</a></td>
+                <td>{.{author}.}</td>
+                <td>{.{modifiedDate}.}</td>
             </tr>
-        {{/posts}}
+        {.{/posts}.}
     </tbody>
 ```
 
