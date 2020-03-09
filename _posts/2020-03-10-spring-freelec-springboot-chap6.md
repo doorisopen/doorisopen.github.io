@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Spring Boot] Chap 6.AWS EC2 서버 환경 구축하기"
-date:   2020-03-00 00:00:00
+date:   2020-03-10 01:59:30
 author: me
 categories: Spring
 tags: Spring Framework Boot
@@ -106,7 +106,7 @@ VPC, 서브넷 등을 세세하게 다루지만, 여기서는 혼자서 1대의 
 __보안 그룹 규칙__ 에는 __인바운드와 아웃 바운드__ 가 있습니다. __인바운드__ 는 __외부에서 AWS로 접속할 경우 규칙을 지정__ 한다고 생각하면 됩니다. 인바운드에 아래와 같이 규칙을 추가합니다. 
 
 |  <center>유형</center> |  <center>프로토콜</center> |  <center>포트 범위</center> |  <center>소스</center> |
-|:--------|:--------|:--------|:--------|
+|:--------:|:--------:|:--------:|:--------:|
 | SSH | TCP | 22 | 내 IP | 
 | 사용자 지정 TCP | TCP | 8080 | 사용자 지정 | 
 | HTTPS | TCP | 443 | 사용자 지정 | 
