@@ -59,6 +59,7 @@ cover:  "/assets/images/Spring/springcover.png"
 >     - 배포를 위한 스크립트(Jar, appspec.yml)가 아닌 것을 제외하기 위해 .travis.yml 내용 수정
 >     - Codedeploy 명령을 담당할 appspec.yml 파일 수정
 >   + CodeDeploy 로그 확인
+>
 > * __Chap 10: Step 3.__ Nginx __무중단__ 배포
 >   + EC2 서버에 Nginx 설치 -> 서비스 시작
 >   + EC2 보안 그룹 추가 : 80 포트
