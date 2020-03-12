@@ -47,7 +47,8 @@ cover:  "/assets/images/Spring/springcover.png"
 >     - Travis CI에 IAM키 등록
 >     - AWS S3 버킷 생성
 >     - Travis CI의 빌드내용(Jar)을 S3에 올리기 위해 프로젝트(.travis.yml)에 설정 추가
->   + EC2와 CodeDeploy 연동
+>   + Travis CI와 AWS S3, CodeDeploy 연동하기
+>     - EC2와 CodeDeploy 연동
 >     - CodeDeploy 연동을 위해 __EC2에서 사용할 IAM 역할 생성__
 >     - EC2 서버에 CodeDeploy 에이전트 설치
 >     - CodeDeploy -> EC2 접근을 위해 __CodeDeploy에서 사용할 IAM 역할 생성__
@@ -57,6 +58,7 @@ cover:  "/assets/images/Spring/springcover.png"
 >   + 배포 자동화 구성(스크립트 파일(.sh) 작성)
 >     - 배포를 위한 스크립트(Jar, appspec.yml)가 아닌 것을 제외하기 위해 .travis.yml 내용 수정
 >     - Codedeploy 명령을 담당할 appspec.yml 파일 수정
+>   + CodeDeploy 로그 확인
 > * __Chap 10: Step 3.__ Nginx __무중단__ 배포
 >   + EC2 서버에 Nginx 설치 -> 서비스 시작
 >   + EC2 보안 그룹 추가 : 80 포트
