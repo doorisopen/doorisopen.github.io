@@ -13,6 +13,8 @@ cover:  "/assets/images/Spring/springcover.png"
 
 [스프링 부트와 AWS로 혼자 구현하는 웹서비스 (프리렉, 이동욱 지음)](https://jojoldu.tistory.com/463) 책에서 공부한 내용을 정리한 게시글입니다.
 
+해당 시리즈의 소스코드는 [이곳](https://github.com/doorisopen/freelec-springboot2-webservice)에서 확인할 수 있습니다. 
+
 <br />
 
 ### 목차
@@ -459,3 +461,18 @@ CodeDeploy에 관한 대부분의 내용은
 `/opt/codedeploy-agent/deployment-root`에 서 확인할 수 있습니다.
 
 __step 2__ 에서의 문제점은 __배포하는 동안 스프링 부트 프로젝트는 종료 상태가 되어 서비스를 이용할 수 없다__ 는 것입니다. __step 3__ 에서는 __서비스 중단 없는 배포 방법__ 으로 개선해보겠습니다. 
+
+# Related Posts
+* [Chap 1.스프링 부트 시작하기](https://doorisopen.github.io/spring/2020/02/24/spring-freelec-springboot-chap1.html)
+* [Chap 2.테스트 코드 작성하기](https://doorisopen.github.io/spring/2020/02/24/spring-freelec-springboot-chap2.html)
+* [Chap 3.스프링 부트에서 JPA사용하기](https://doorisopen.github.io/spring/2020/02/26/spring-freelec-springboot-chap3.html)
+* [Chap 4.Mustache로 화면 구성하기](https://doorisopen.github.io/spring/2020/03/03/spring-freelec-springboot-chap4.html)
+* [Chap 5.스프링 시큐리티와 OAuth2.0](https://doorisopen.github.io/spring/2020/03/03/spring-freelec-springboot-chap5.html)
+* [Chap 6.AWS EC2 서버 환경 구축하기](https://doorisopen.github.io/spring/2020/03/10/spring-freelec-springboot-chap6.html)
+* [Chap 7.AWS RDS 생성하기](https://doorisopen.github.io/spring/2020/03/11/spring-freelec-springboot-chap7.html)
+* [Chap 8.EC2 서버에 프로젝트 배포하기](https://doorisopen.github.io/spring/2020/03/12/spring-freelec-springboot-chap8.html)
+* [Chap 9.Travis CI 배포 자동화 - Now](#)
+* [Chap 10.Nginx를 이용한 무중단 배포](https://doorisopen.github.io/spring/2020/03/18/spring-freelec-springboot-chap10.html)
+
+# References
+* 스프링 부트와 AWS로 혼자 구현하는 웹서비스 (프리렉, 이동욱 지음)
