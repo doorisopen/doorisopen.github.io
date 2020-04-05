@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[C++/STL] sort()"
-date:   2019-07-15 13:32:30
+date:   2020-07-15 13:32:30
 author: me
 categories: Cpp
 tags:	C++ STL Algorithm sort
@@ -141,6 +141,49 @@ int main(void){
 
 * v[].second에서 second는 배열의 2번째 값을 가리킨다는 의미이다.
 * 위 소스코드는 점수를 기준으로 학생을 정렬해서 이름을 출력하는 코드이다.
+
+
+### sort() 함수의 기본 사용법4-1
+
+* 내림차순(점수 기준)으로 정렬하고 만약 동일 점수가 있다면 이름 사전 순서로 정렬한다.
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+bool compare (pair<int, string> a, 
+          pair<int, string> b){
+    if(a.first == b.first) {
+        return a.second < b.second; 
+    } else {
+        return a.first > b.first;
+    }
+}
+
+int main(void) {
+
+	vector<pair<int, string> > v;
+	v.push_back(make_pair(1000, "a"));
+	v.push_back(make_pair(300, "b"));
+	v.push_back(make_pair(700, "c"));
+	v.push_back(make_pair(250, "e"));
+    v.push_back(make_pair(300, "g"));
+	
+	sort(v.begin(), v.end() ,compare);
+
+    for(int i = 0; i < v.size(); i++) {
+        cout << v[i].second << " " << v[i].first << "\n"; 
+    }
+	/**==Result==
+		a 1000
+		c 700
+		b 300
+		g 300
+		e 250
+	*/
+	return 0;
+}
+```
 
 <hr/>
 
