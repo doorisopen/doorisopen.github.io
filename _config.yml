@@ -29,11 +29,11 @@ disqus_url: https://doop.disqus.com/
 disqus_shortname: doop
 # image settings
 # 2019
-algorithm_img: /assets/images/algorithm
-datastructure_img: /assets/images/datastructure
-spring_img: /assets/images/Spring
-aws_img: /assets/images/Aws
-error_img: /assets/images/Error
+algorithm_img: /assets/images/2019/algorithm
+datastructure_img: /assets/images/2019/datastructure
+spring_img: /assets/images/2019/Spring
+aws_img: /assets/images/2019/Aws
+error_img: /assets/images/2019/Error
 
 # 2020
 2020_algorithm_img: /assets/images/2020/algorithm
