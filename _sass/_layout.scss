@@ -110,8 +110,15 @@ pre code.hljs {
 /*
 *	Header
 */
+.header-line {
+	height: 8px;
+    top: 0;
+	position: sticky;
+    background: linear-gradient(to right, rgb(58, 181, 176) 0%, rgb(61, 153, 190) 31%, rgb(86, 49, 122) 100%);
+}
+
 .navigation {
-	box-shadow: 0 2px $highlight-color;
+	// box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
 	/*
@@ -363,7 +370,8 @@ pre code.hljs {
 .site-footer {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
+	background: linear-gradient(to right, rgb(58, 181, 176) 0%, rgb(61, 153, 190) 31%, rgb(86, 49, 122) 100%);
+	// background-color: $highlight-color;
 	color: $white;
 	a {
 	  color: $link-color;
