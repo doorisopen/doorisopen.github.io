@@ -69,7 +69,7 @@ jekyll-archives:
 disqus_shortname: doop
 
 # Google analytics
-ga_tracking_id: "G-HN7W0E0GGL"
+# ga_tracking_id: "UA-165000136-1"
 
 # Category descriptions (for archive pages)
 descriptions:
