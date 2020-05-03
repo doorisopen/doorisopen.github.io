@@ -27,17 +27,22 @@ cover:  "/assets/instacode.png"
 # set 사용법
 
 ## set 선언
-* #include <set>
-* set<type> 변수 명;
-  + ex) set<int> s;
-  + ex) set<pair<int, int> > s;
+
+```
+#include <set>
+//set<type> 변수 명;
+//ex) set<int> s;
+//ex) set<pair<int, int> > s;
+```
 
 ## set의 생성자, 연산자
-* __set<int> s;__
-  + 기본 선언 방법
-* __set<int> s(정렬기준);__
-* __set<int> s2(s1);__
-  + s1을 s2에 복사
+
+```
+set<int> s; //기본 선언 방법
+// set<int> s(정렬기준);
+set<int> s2(s1); //s1을 s2에 복사
+```
+
 * 연산자 사용가능
   + "==", "!=", "<", ">", "<=", ">="
 
