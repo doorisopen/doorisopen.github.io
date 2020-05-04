@@ -124,8 +124,8 @@ int main(void){
 ### Union-Find 최악의 경우 & 최적화한 방법
 
 #### 최악의 상황
-<a href="/assets/images/algorithm/unionfindworstcase.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfindworstcase.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}unionfindworstcase.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}unionfindworstcase.JPG" title="Check out the image">
 </a>
 
 * __트리 구조가 완전 비대칭인 경우__
@@ -135,8 +135,8 @@ int main(void){
 >> 배열로 구현하는 것보다 비효율적이다.
 
 #### find 연산 최적화
-<a href="/assets/images/algorithm/unionfindpathcompressionnew.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="/assets/images/algorithm/unionfindpathcompressionnew.JPG" title="Check out the image">
+<a href="{{ site.algorithm_img }}unionfindpathcompressionnew.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.algorithm_img }}unionfindpathcompressionnew.JPG" title="Check out the image">
 </a>
 
 
