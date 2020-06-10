@@ -27,8 +27,8 @@ cover:  "/assets/instacode.png"
 
 
 ## 주사위 굴릴때 변화
-<a href="{{ site.2020_algorithm_img }}/dicemove.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="{{ site.2020_algorithm_img }}/dicemove.JPG" title="Check out the image">
+<a href="{{ site.2020_ps_img }}/dicemove.JPG" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2020_ps_img }}/dicemove.JPG" title="Check out the image">
 </a>
 
 ```

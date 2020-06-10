@@ -27,21 +27,17 @@ logo: "/assets/logo.png"
 # disqus 
 disqus_url: https://doop.disqus.com/
 disqus_shortname: doop
+
 # image settings
 # 2019
-algorithm_img: /assets/images/2019/algorithm
-datastructure_img: /assets/images/2019/datastructure
 spring_img: /assets/images/2019/Spring
 aws_img: /assets/images/2019/Aws
 error_img: /assets/images/2019/Error
 
 # 2020
-2020_algorithm_img: /assets/images/2020/algorithm
-2020_datastructure_img: /assets/images/2020/datastructure
+2020_ps_img: /assets/images/2020/ps
 2020_spring_img: /assets/images/2020/spring
 2020_java_img: /assets/images/2020/java
-# 2021
-# 2022
 
 
 # Category

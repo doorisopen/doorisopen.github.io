@@ -11,14 +11,18 @@ permalink: /about/
 
 ## What is this?
 
-안녕하세요. 이 블로그는 공부했던 내용 정리하고 기록하려고 만든 블로그입니다
+안녕하세요. 이 블로그는 __프로젝트__ 와 __PS(Algorithm)__ 관련 내용 정리하고 기록하려고 만든 블로그입니다
 
 주로 아래와 같은 내용을 올릴 예정입니다.
 
-* Web(Server)
-* Algorithm
 * Project
+* PS(Algorithm)
 * Tech
+
+### CS(Computer Science) Repository Blog
+이곳> [dev-library](https://doorisopen.github.io/developers-library/)은 __면접 대비, CS(Computer Science)지식__ 을 정리하고 기록하려고 만든 저장소 입니다.
+
+> 해당 블로그에 있던 기존 CS관련 게시글들은 위 블로그로 이전하였습니다.
 
 작성된 글에 오류나 맞춤법은 댓글로 지적해주시면 감사하겠습니다.
 

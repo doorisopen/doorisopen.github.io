@@ -31,6 +31,9 @@ cover:  "/assets/instacode.png"
 
 11과 011은 같은 숫자로 취급합니다.
 
+## 접근 방법
+
+
 
 ## 소스 코드(Java)
 ```
@@ -65,8 +68,8 @@ class Solution {
         }
         for(int i = 0; i < num_size; i++) {
             permutation(prefix + numbers.charAt(i),
-                        numbers.substring(0,i) + numbers.substring(i+1,num_size),
-                        set);
+                    numbers.substring(0,i) + numbers.substring(i+1,num_size),
+                    set);
         }
     }
     
