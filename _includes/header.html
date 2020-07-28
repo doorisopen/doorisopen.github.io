@@ -13,6 +13,11 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
+          <li class="nav-link">
+            <strong>
+              <a style="color: #3ab5b0" href="https://doorisopen.github.io/developers-library/">CS Repo</a>
+            </strong>
+          </li>
         {% for page in site.pages %}
           {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
