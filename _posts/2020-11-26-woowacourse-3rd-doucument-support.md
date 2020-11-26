@@ -5,7 +5,7 @@ date: 2020-11-26 00:30:59
 author: me
 categories: Woowacourse
 tags: woowacourse
-cover: "/assets/instacode.png"
+cover: "/assets/images/2020/woowacourse/woowacourse-cover.png"
 ---
 
 해당 내용은 2020년도 10월 우아한테크코스(이하, 우테코)를 어떤 생각을 하며 지원했는지에 대한 이야기를 다룹니다. 
