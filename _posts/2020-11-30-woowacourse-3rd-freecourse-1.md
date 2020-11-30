@@ -4,14 +4,16 @@ title: "우아한테크코스 3기 지원후기(프리코스 1주차)"
 date: 2020-11-30 00:50:59
 author: me
 categories: Woowacourse
-tags: woowacourse codingtest
+tags: woowacourse
 cover: "/assets/images/2020/woowacourse/woowacourse-cover.png"
 ---
 
 해당 내용은 2020년도 10월 우아한테크코스(이하, 우테코)를 어떤 생각을 하며 지원했는지에 대한 이야기를 다룹니다.
 
 
-11월 25일 수요일 드디어!! 1주차 프리코스가 시작되었습니다! 1주차 미션은 1기, 2기와 동일하게 **"숫자 야구 게임"** 이 미션으로 주어졌습니다.
+11월 25일 수요일 드디어!! 1주차 프리코스가 시작되었습니다!
+
+1주차 미션은 1기, 2기와 동일하게 **"숫자 야구 게임"** 이 미션으로 주어졌습니다.
 
 <a href="{{ site.2020_woowacourse_img }}/woowacourse-freecourse-week-1.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
   <img src="{{ site.2020_woowacourse_img }}/woowacourse-freecourse-week-1.jpg" title="Check out the image">
