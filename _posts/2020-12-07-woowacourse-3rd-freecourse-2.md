@@ -125,10 +125,11 @@ private static String nameGenerator(String name) {
 * `nameGenerator`: 중복된 이름 뒤에 번호를 부여하는 메소드
 
 ## 미션을 통해 느낀점 or 배운점
-2주차는 좀 더 기능 단위 커밋에 익숙해 질 뿐 아니라 자바 컨벤션과 객체지향 프로그래밍에 대해 좀 더 익숙해 질 수 있었습니다.
+2주차는 기능 단위 커밋에 좀 더 익숙해 질 뿐 아니라 자바 컨벤션과 객체지향 프로그래밍에 익숙해 질 수 있었습니다.
 
 또한, 클래스의 역할과 범위에 대해서 고민하다보니 클래스를 어떻게 분리하는 것이 좋을지 아이디어가 떠올랐습니다.
 
 그러나 클래스의 역할을 어디까지, 어느 범위까지 한정할지에 대한 명확한 확신에 부족함을 느꼈습니다. 이러한 점은 아직 객체지향에 미숙함을 느낄 수 있었고 객체지향을 더욱 단련해야 함을 느꼈습니다.
 
 * [미션 Repository Link](https://github.com/doorisopen/java-racingcar-precourse/tree/doorisopen)
+* [미션 PR Link](https://github.com/woowacourse/java-racingcar-precourse/pull/273)
