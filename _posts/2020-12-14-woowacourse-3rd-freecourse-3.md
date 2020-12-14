@@ -55,7 +55,17 @@ cover: "/assets/images/2020/woowacourse/woowacourse-cover.png"
 ## 고민한 부분
 3주차 미션은 기능에 대한 어려움? 고민 보다는 3주차 목표인 **"여러 개의 클래스를 분리한 후 어떻게 서로 관계를 맺을지"** 에 대한 고민을 하였습니다.
 
-그래서 MVC 패턴으로 각 클래스들의 역할을 구분하고 서로 관계를 맺으며 구현했습니다.
+그래서 아래와 사진과 같이 각 클래스들의 역할을 구분하고 서로 관계를 맺으며 구현했습니다.
+
+<a href="{{ site.2020_woowacourse_img }}/woowacourse-freecourse-week-3-project-structure.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2020_woowacourse_img }}/woowacourse-freecourse-week-3-project-structure.jpg" title="Check out the image">
+</a>
+
+* **Controller:** 지하철 노선도 시작점
+* **Service:** 각 메뉴의 비즈니스 로직 담당
+* **View:** 입력, 출력 화면 담당
+* **Domain:** 객체와 객체의 상태 관리 담당
+* **Utils:** 입력값 검증 및 파싱 관련 유틸 모음
 
 ## 프리코스에 참여하며...
 3주간 프리코스를 진행하면서 배운점, 느낀점은 아래와 같습니다.
@@ -91,9 +101,9 @@ cover: "/assets/images/2020/woowacourse/woowacourse-cover.png"
 #### 마지막으로
 3주간 프리코스 정말 짧게 느껴졌지만 되돌아 보니 미션을 통해 스스로 성장했음을 느낄 수 있었습니다.
 
-그러나 매주 주어지는 공통 피드백은 배움에 대한 갈증을 해소시켜주지 못해 아쉬움이 남았습니다.
+그러나 매주 주어지는 공통 피드백으론 배움에 대한 갈증을 해소시켜주지 못해 아쉬움이 남았습니다.
 
-그래서 그런지 이전 보다 더 많이 배움에 목이 마르는 느낌이 들었지만 한편으론 우테코 본 과정은 열정가득한 환경속에서 얼마나 많은 배움을 얻어갈 수 있을지 기대가 됐습니다.
+그래서 그런지 이전 보다 더 많이 배움에 목이 마르는 느낌이 들었지만 한편으론 우테코 본 과정은 열정가득한 환경속에서 얼마나 많은 배움을 얻어갈 수 있을지 기대가 됩니다.
 
 
 * [미션 Repository Link](https://github.com/doorisopen/java-subway-map-precourse/tree/doorisopen)
