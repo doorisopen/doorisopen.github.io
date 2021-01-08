@@ -9,7 +9,8 @@ cover: "/assets/instacode.png"
 ---
 
 
-> 중고 거래 플랫폼 **가지마켓 프로젝트** 를 소개합니다.
+> 중고 거래 플랫폼 **가지마켓 프로젝트** 를 소개합니다.<br/>
+> 프로젝트 저장소는 [이곳](https://github.com/GagiMarket/gagi)에 확인할 수 있습니다.
 
 
 ## 팀 프로젝트 시작
