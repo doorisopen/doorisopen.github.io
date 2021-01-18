@@ -40,6 +40,8 @@ error_img: /assets/images/2019/Error
 2020_java_img: /assets/images/2020/java
 2020_woowacourse_img: /assets/images/2020/woowacourse
 
+# 2021
+2021_project_img: /assets/images/2020/project
 
 # Category
 category_dir: category/
