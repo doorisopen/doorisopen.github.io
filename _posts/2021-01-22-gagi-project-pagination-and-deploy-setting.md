@@ -108,7 +108,11 @@ GET http://localhost:8080/api/v1.0/items
 }
 ```
 
-그러나 필자가 사용한 페이징 방법은 `org.springframework.data.domain.Page` 이것인데 이것의 경우 **count 쿼리를 결과에 포함하는 페이징 방법**입니다. 그래서 조회시 count 쿼리가 강제적으로 실행이 되는 문제가 있습니다. 이는 데이터가 많아짐에 따라 전체 데이터를 count하는 쿼리는 성능상 무리를 줄 수 있고 반복되는 count 쿼리는 비효율적입니다. 이후에 count 쿼리를 분리하여 최적화 해보겠습니다.
+그러나 필자가 사용한 페이징 방법은 `org.springframework.data.domain.Page` 이것인데 이것의 경우 **count 쿼리를 결과에 포함하는 페이징 방법**입니다. 
+
+그래서 조회시 count 쿼리가 강제적으로 실행이 되는 문제가 있습니다. 
+
+이는 데이터가 많아짐에 따라 전체 데이터를 count하는 쿼리는 성능상 무리를 줄 수 있고 반복되는 count 쿼리는 비효율적입니다. 이후에 count 쿼리를 분리하여 최적화 해보겠습니다.
 
 ## 상품 검색 API 개발
 상품을 **이름으로 검색하는 요구사항이 추가**되어 상품 검색 API를 추가 구현하였습니다.
@@ -122,16 +126,20 @@ Host: localhost:8080
 ```
 
 #### Parameter
+
 |Name|Type|Description|Required|
 |:---:|:---:|:---:|:---:|
 |itemName|String|상품 이름|true|
 
+
 #### Parameter(Pagination)
+
 |Name|Type|Description|default|Required|example|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |page|int|조회할 페이지 번호|0|false|/api/v1.0/items?page=0|
 |size|int|한 페이지 당 조회 개수|20|false|/api/v1.0/items?size=2|
 |sort|String|정렬 기준|asc|false|/api/v1.0/items?sort=itemId,desc|
+
 
 #### Example
 ```http
