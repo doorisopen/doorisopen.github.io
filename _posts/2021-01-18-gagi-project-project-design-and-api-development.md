@@ -59,11 +59,11 @@ API 개발이라고 하면 REST API를 생각할 수 있는데 단순히 HTTP Me
 
 |HTTP Method|URI|Description|
 |:---:|:---:|:---:|
-|POST|/api/items|상품을 등록한다.|
-|GET|/api/items|상품 전체를 조회한다.|
-|GET|/api/items/{itemId}|{itemId} 상품을 조회한다.|
-|PUT|/api/items/{itemId}|{itemId} 상품을 수정한다.|
-|DELETE|/api/items/{itemId}|{itemId} 상품을 삭제한다.|
+|POST|/api/v1.0/items|상품을 등록한다.|
+|GET|/api/v1.0/items|상품 전체를 조회한다.|
+|GET|/api/v1.0/items/{itemId}|{itemId} 상품을 조회한다.|
+|PUT|/api/v1.0/items/{itemId}|{itemId} 상품을 수정한다.|
+|DELETE|/api/v1.0/items/{itemId}|{itemId} 상품을 삭제한다.|
 
 
 > 상품 API에 대한 자세한 스펙은 [Wiki - 상품(item) API](https://github.com/GagiMarket/gagi/wiki/%EC%83%81%ED%92%88(item)-API)을 확인해 주세요
