@@ -62,7 +62,7 @@ API 개발이라고 하면 REST API를 생각할 수 있는데 단순히 HTTP Me
 |POST|/api/v1.0/items|상품을 등록한다.|
 |GET|/api/v1.0/items|상품 전체를 조회한다.|
 |GET|/api/v1.0/items/{itemId}|{itemId} 상품을 조회한다.|
-|GET|/api/v1.0/items/search|상품을 검색한다.(상품 이름으로).|
+|GET|/api/v1.0/items/search|상품을 검색한다.(상품 이름으로)|
 |PUT|/api/v1.0/items/{itemId}|{itemId} 상품을 수정한다.|
 |DELETE|/api/v1.0/items/{itemId}|{itemId} 상품을 삭제한다.|
 
