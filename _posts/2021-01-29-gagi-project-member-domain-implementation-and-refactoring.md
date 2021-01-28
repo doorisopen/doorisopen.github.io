@@ -37,9 +37,9 @@ cover: "/assets/instacode.png"
 |HTTP Method|URI|Description|
 |:---:|:---:|:---:|
 |POST|/api/v1.0/members|회원을 등록한다.|
-|GET|/api/v1.0/members/{memberEmail}|memberEmail 회원을 조회한다.|
-|PUT|/api/v1.0/members/{memberEmail}|memberEmail 회원을 수정한다.|
-|DELETE|/api/v1.0/members/{memberEmail}|memberEmail 회원을 삭제한다.|
+|GET|/api/v1.0/members/{memberEmail}|회원정보를 조회한다.|
+|PUT|/api/v1.0/members/{memberEmail}|회원정보를 수정한다.|
+|DELETE|/api/v1.0/members/{memberEmail}|회원정보를 삭제한다.|
 
 #### 로그인 기능
 로그인 기능은 **로그인, 이메일 중복 확인, 로그아웃** 기능이 있습니다.
@@ -47,7 +47,7 @@ cover: "/assets/instacode.png"
 |HTTP Method|URI|Description|
 |:---:|:---:|:---:|
 |POST|/api/v1.0/members/login|로그인 한다.|
-|GET|/api/v1.0/members/duplicated/{memberEmail}|memberEmail과 중복된 이메일이 있는지 확인 한다.|
+|GET|/api/v1.0/members/duplicated/{memberEmail}|중복된 이메일이 있는지 확인 한다.|
 |GET|/api/v1.0/members/logout|로그아웃 한다.|
 
 
