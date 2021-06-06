@@ -10,8 +10,8 @@ cover: "/assets/instacode.png"
 
 <center>
 
-<a href="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.jpg" title="Check out the image">
+<a href="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.png" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.png" title="Check out the image">
 </a>
 
 </center>
@@ -40,8 +40,8 @@ cover: "/assets/instacode.png"
 
 객체지향을 이해하기 위해서는 실세계의 모방이라는 개념을 통해 쉽게 이해가 가능합니다. 다음 예시는 커피를 주문하는 상황을 표현한 것입니다.
 
-<a href="{{ site.2021_book_img }}/the-essence-of-object-orientation-ex.jpg" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-ex.jpg" title="Check out the image">
+<a href="{{ site.2021_book_img }}/the-essence-of-object-orientation-ex.png" data-lightbox="falcon9-large" data-title="Check out the image">
+  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-ex.png" title="Check out the image">
 </a>
 
 위의 상황에서 주의 깊게 봐야할 점은 다음과 같습니다.
