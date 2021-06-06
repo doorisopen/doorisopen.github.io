@@ -11,10 +11,11 @@ cover: "/assets/instacode.png"
 <center>
 
 <a href="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.png" data-lightbox="falcon9-large" data-title="Check out the image">
-  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.png" title="Check out the image">
+  <img src="{{ site.2021_book_img }}/the-essence-of-object-orientation-cover.png" style="width: 40%;" title="Check out the image">
 </a>
 
 </center>
+
 
 객체지향의 사실과 오해(이하, 객사오)를 읽고나서, 객체지향이 무엇인가? 라는 질문에 추상화, 상속, 캡슐화, 다형성과 같은 객체지향의 특성만을 이야기하던 내가 객체지향의 핵심인 객체에 대해 이야기할 수 있게 되었고 객체지향을 바라보는 시야가 조금은 성장했다고 느낄 수 있었습니다.
 
