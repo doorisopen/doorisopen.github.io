@@ -3,7 +3,7 @@ layout: post
 title:  "[AWS Free Tier] 3 - Java, Tomcat 설치하기"
 date:   2019-08-13 11:50:59
 author: me
-categories: Aws
+categories: Infra
 tags: AWS EC2 web Server free tier Java Tomcat
 cover:  "/assets/images/Aws/awscover.png"
 ---
